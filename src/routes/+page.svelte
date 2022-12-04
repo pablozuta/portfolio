@@ -9,13 +9,13 @@
             
     <div class="card">
      
-      <h3>Hi , I'm Pablo Zuta</h3>
+      <h3>Hi , I'm <span>Pablo Zuta</span> </h3>
      <h4>I'm a web developer from Chile</h4>
           
-     <p >As a web developer, I have a passion for creating user-friendly and visually appealing websites. My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React, Django and Svelte.
+     <p style="line-height: 1.8rem;">As a web developer, I have a passion for creating user-friendly and visually appealing websites. My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React, Django and Svelte.
 
         I have experience working on both front-end and back-end development, and I am always looking for ways to improve my skills and stay up-to-date with the latest industry trends.</p>
-     <button class="boton">Read More</button>
+     <a href="/readmore"><button class="boton">Read More</button></a>
 
      </div>
 
@@ -26,16 +26,18 @@
 
 <!--aca empieza el banner horizontal de skills-->
  <div class="card-skills">
-    <h2>MY SKILLS</h2>
+   
     <div class="card-skills-badges">
     <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> 
 </div>
  </div>
  <!--aca termina el banner horizontal de skills-->
 
+
+
  <!-- aca empieza el grid portfolio-->
 
-<center><h2>PORTFOLIO</h2></center>
+<center><h2 style="font-size:3rem ; letter-spacing:1.7rem;">PORTFOLIO</h2></center>
  
  <div class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
           
@@ -44,6 +46,10 @@
      <h4 class="card-portfolio-text-big">Magazine</h4><br>
      
      <p class="card-portfolio-text">McKenzie collaborates with other creatives regularly. Through her collaborations, she challenges the notion of authorship by pointing to the strength of collective actions. </p>
+
+     <a href="/readmore"><button class="boton" style="border:1.7px solid black ;">Live</button></a>
+     <a href="/readmore"><button class="boton" style="border:1.7px solid black ;">Code</button></a>
+
     </div>
            
             
@@ -122,6 +128,11 @@
     object-fit: cover;
 }
 
+.card > h3 > span {
+    border-bottom:3px solid #efb229;
+    border-radius: 2px;
+}
+
 .boton {
   background-color:#efb229;
   border: none;
@@ -132,15 +143,22 @@
   display: inline-block;
   font-size: 18px;
   border-radius: 3px;
+  transition: all 0.5s;
   
 }
 
 .boton:hover{
+    
     color: black;
     cursor: pointer;
+    transform: scale(1.05);
+   
 }
 
 .card-skills{
+    padding-block:3% ;
+    margin-top: 9rem;
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
 }
@@ -167,6 +185,11 @@
 .card-portfolio-text{
     margin-top: -1rem;
     text-align: center;
+}
+
+footer{
+    margin-block: -0.8rem;
+
 }
 
  </style>
