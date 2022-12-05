@@ -37,7 +37,7 @@
 
  <!-- aca empieza el grid portfolio-->
 
-<center><h2 style="font-size:3rem ; letter-spacing:1.7rem;">PORTFOLIO</h2></center>
+<center><h2 class="portfolio">PORTFOLIO</h2></center>
  
  <div class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
           
@@ -163,8 +163,14 @@
     flex-direction: column;
 }
 
-.card-skills > h2{
-    text-align: center;
+.portfolio{
+    font-size:3rem ; 
+    letter-spacing:1.7rem;
+}
+@media (max-width: 600px) {
+    .portfolio{
+        font-size: 1.8rem;
+    }
 }
 
 .card-skills-badges{
