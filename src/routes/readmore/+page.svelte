@@ -1,3 +1,16 @@
+<script>
+    import Acordion from "$lib/Acordion.svelte";
+    const data = {
+		'Web Programming With Python And JavaScript': ['HTML and CSS','Git','Python', 'Django', 'SQL Models and Migrations', 'JavaScript', 'User Interfaces', 'Testing CI/CD', 'Scalability and Usability' ],
+
+		'Computing in Python III (Data Structures)': ['Data Structures','Strings','LIsts','File Input and Output','Dictionaries'],
+		'baz': [12,24,42]
+	}
+
+  
+   
+</script>
+
 <div class="readme">
     <h3>THE PROCESS</h3>
     <p>Ich bin von je der Ordnung Freund gewesen. Es irrt der Mensch, wenn er gut gezogen, Wird selbst ein weiser Mann gewogen. Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin.
@@ -21,6 +34,12 @@
 All the speed he took, all the turns he’d taken and the dripping chassis of a heroin factory. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the corners he’d cut in Night City, and still he’d see the matrix in his sleep, and wake alone in the coffin for Armitage’s call.
 </p>
 
+<h3>COURSES</h3>
+
+
+{#each Object.entries(data) as entry}
+<Acordion {entry} />
+{/each}
 
 </div>
 
@@ -35,7 +54,7 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
     }
     @media (max-width: 900px) {  
    .readme{  
-    margin-inline: 2rem;
+    margin-inline: 0.5rem;
     } } 
 
     .badges{

@@ -1,8 +1,9 @@
+
 <nav class="barra-navegacion">
     <a class="nombre" href="/"><h3 >pablozuta</h3></a>
     <div class="icons">
-        <img src="https://www.svgrepo.com/show/353136/github.svg" alt="coding icon">
-        <img src="https://www.svgrepo.com/show/137277/twitter.svg" alt="web design icon">
+       <a href="https://www.moma.org/"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="coding icon"></a>
+        <a href="https://victoryjournal.com/"><img src="https://www.svgrepo.com/show/137277/twitter.svg" alt="web design icon"></a>
     </div>
 </nav>
 
@@ -23,11 +24,11 @@
 .icons {
     display: flex;
     flex-direction: row;
-    margin-right: 2rem;
+   
     justify-content: center;
 }
 
-.icons > img {
+.icons > a > img {
     width: 22px;
     margin-left: 2rem;
     

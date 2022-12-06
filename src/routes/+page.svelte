@@ -10,11 +10,12 @@
     <div class="card">
      
       <h3>Hi , I'm <span>Pablo Zuta</span> </h3>
-     <h4>I'm a web developer from Chile</h4>
+     <h4>I'm a developer based in Chile</h4>
           
-     <p style="line-height: 1.8rem;">As a web developer, I have a passion for creating user-friendly and visually appealing websites. My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React, Django and Svelte.
-
-        I have experience working on both front-end and back-end development, and I am always looking for ways to improve my skills and stay up-to-date with the latest industry trends.</p>
+     <p style="line-height: 1.8rem;"> 
+    I have a passion for technology and am always looking to learn and improve my skills.
+    My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React, Django and Svelte. In my free time, I enjoy making music and exploring new ways to express myself creatively.
+    </p>
      <a href="/readmore"><button class="boton">Read More</button></a>
 
      </div>
