@@ -22,33 +22,28 @@
 
  </div>
 </main>
+<br>
+<br>
+<br>
 <!-- aca termina el card main-->
 
-<!--aca empieza el banner horizontal de skills-->
- <div class="card-skills">
-   
-    <div class="card-skills-badges">
-    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> 
-</div>
- </div>
- <!--aca termina el banner horizontal de skills-->
+
 
 
 
  <!-- aca empieza el grid portfolio-->
 
-<center><h2 class="portfolio">PORTFOLIO</h2></center>
+
  
  <div class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
-          
+    <center><h2 class="portfolio">PROJECTS</h2></center>     
     <div class="card">
      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-imagen-horizontal" alt="imagen of lucy Mckenzie">
      <h4 class="card-portfolio-text-big">Magazine</h4><br>
      
      <p class="card-portfolio-text">McKenzie collaborates with other creatives regularly. Through her collaborations, she challenges the notion of authorship by pointing to the strength of collective actions. </p>
 
-     <a href="/readmore"><button class="boton" style="border:1.7px solid black ;">Live</button></a>
-     <a href="/readmore"><button class="boton" style="border:1.7px solid black ;">Code</button></a>
+    
 
     </div>
            
@@ -58,15 +53,10 @@
 
      <h4 class="card-portfolio-text-big">Emily Speed</h4><br>
           
-     <p class="card-portfolio-text">Experience a new film installation by North West based artist Emily Speed. The film is inspired by Edwin Abbott’s 1884 novella Flatland, a satire of Victorian society, where all existence is limited to two dimensions and women are restricted to thin, straight lines. </p>
+     <p class="card-portfolio-text">Experience a new film installation by North West based artist Emily Speed. The film is inspired by Edwin Abbott’s 1884 novella Flatland, a satire of Victorian society. </p>
      </div>
 
-     <div class="card">
-       <img src="https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" class="card-imagen-horizontal" alt="Zahoor ul Akhlaq painting">
-       <h4 class="card-portfolio-text-big">Zahoor ul Akhlaq</h4><br>
-       
-       <p class="card-portfolio-text">Such marks make the image oscillate back and forth, back into the process of miniature making and forward into a Modernist frame. The reverse gear refers to the initial stage of drawing exercises.</p>
-      </div>
+   
 
       <div class="card">
        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-imagen-horizontal" alt="imagen of emily speed" >
@@ -94,7 +84,7 @@
 
  </div>
  <center> <footer>
-    <p>&copy; 2022 Made with ❤️ by <strong>Pablo Zuta</strong> </p>
+    <p>Made with ❤️ by <strong>Pablo Zuta</strong>  &copy; 2022  </p>
  </footer></center>
 
 
@@ -164,6 +154,9 @@
 }
 
 .portfolio{
+    margin-top: 25%;
+    align-items: center;
+    justify-content: center;
     font-size:3rem ; 
     letter-spacing:1.7rem;
 }
