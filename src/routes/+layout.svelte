@@ -1,8 +1,11 @@
 
 <nav class="barra-navegacion">
     <a class="nombre" href="/"><h3 >pablozuta</h3></a>
+    <!--icono link a github-->
     <div class="icons">
-       <a href="https://www.moma.org/"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="coding icon"></a>
+       <a href="https://github.com/pablozuta"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="coding icon"></a>
+
+    <!--icono link a twitter-->   
         <a href="https://victoryjournal.com/"><img src="https://www.svgrepo.com/show/137277/twitter.svg" alt="web design icon"></a>
     </div>
 </nav>
@@ -38,6 +41,7 @@
     list-style: none;
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
 }
 .nombre:hover{
    cursor: pointer;
