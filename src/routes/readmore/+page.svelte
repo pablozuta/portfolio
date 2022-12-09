@@ -22,9 +22,30 @@
 
 
     <h3>TOOLS</h3>
-    <p class="badges"><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a><a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> </p>
+    <div class="container-badges">
+    <p class="badges">
+        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-html-5-mobile-app-development-flaticons-lineal-color-flat-icons.png" alt="html5" width="60" height="60"/></a>
+        
+        
+        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/css3.png" alt="css3" width="60" height="60"/> </a>
+        
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/javascript-logo.png" alt="javascript" width="60" height="60"/> </a> 
+
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/bubbles/50/null/github.png" alt="git" width="70" height="70"/> </a>  
+        
+            
+              
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/bubbles/50/null/react.png" alt="react" width="70" height="70"/> </a> 
+        
+        <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/svetle.png" alt="svelte" width="40" height="40"/> </a> 
     
-    
+        <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/clouds/100/null/python.png" alt="python" width="70" height="70"/> </a> 
+       </p>
+      
+    </div>
+    <br>
+    <br>
+    <br>
     <h3>RESOURCES</h3>
     <p>That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the drifting shoals of waste. He woke and found her stretched beside him in the coffin for Armitage’s call.
 </p>
@@ -47,18 +68,37 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
 <style>
     h3{
         font-size: 2rem;
+        border-bottom: 3px solid #efb229;
     }
     .readme{
         margin-inline: 18rem;
         text-align: left;
     }
+
+
+
     @media (max-width: 900px) {  
    .readme{  
     margin-inline: 0.5rem;
     } } 
 
+
+    .container-badges{
+        background-color: #E7B75F;
+        border-radius: 30px;
+        box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+    }
     .badges{
+       
+        padding-block: 2rem;
+        padding-inline:1rem ;
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 
