@@ -5,16 +5,17 @@
      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="imagen-principal" alt="Portrait">
      
     </div>
-           
+    
+         
             
     <div class="card">
      
-      <h3>Hi , I'm <span>Pablo Zuta</span> </h3>
-     <h4>I'm a developer based in Chile</h4>
+      <h3 class="nombre">Hi , I'm <span>Pablo</span> </h3>
+     <h4 class="based">I'm a developer based in Chile</h4>
           
      <p style="line-height: 1.8rem;"> 
     I have a passion for technology and am always looking to learn and improve my skills.
-    My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React, Django and Svelte. In my free time, I enjoy making music and exploring new ways to express myself creatively.
+    My skillset includes HTML, CSS, JavaScript, and various frameworks and libraries such as React and Svelte. In my free time, I enjoy making music and exploring new ways to express myself creatively.
     </p>
      <a href="/readmore"><button class="boton">Read More</button></a>
 
@@ -39,7 +40,12 @@
  <div class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
     <center><h2 class="portfolio">PROJECTS</h2></center>     
     <div class="card">
+    
      <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-imagen-horizontal" alt="imagen of lucy Mckenzie">
+
+     <a href="https://magazine-puce.vercel.app/"><button class="card-boton">LIVE</button></a>
+     <a href="https://magazine-puce.vercel.app/"><button class="card-boton">CODE</button></a>
+
      <h4 class="card-portfolio-text-big">Magazine</h4><br>
      
      <p class="card-portfolio-text">McKenzie collaborates with other creatives regularly. Through her collaborations, she challenges the notion of authorship by pointing to the strength of collective actions. </p>
@@ -84,14 +90,20 @@
         </div>
 
  </div>
- <center> <footer>
-    <p>Made with ❤️ by <strong>Pablo Zuta</strong>  &copy; 2022  </p>
- </footer></center>
+
 
 
  
 
  <style>
+   .nombre{
+    font-size: 2rem;
+   }
+   .based{
+    font-size: 1.4rem;
+    margin-top: -1.6rem;
+   }
+
     .grid-6{
     margin-top: 1rem;
     display: grid;
@@ -109,14 +121,15 @@
       0 2px 2px hsl(0deg 0% 0% / 0.075),
       0 4px 4px hsl(0deg 0% 0% / 0.075),
       0 8px 8px hsl(0deg 0% 0% / 0.075),
-      0 16px 16px hsl(0deg 0% 0% / 0.075)
-    ;
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
     border-radius: 3px;
 }
+
 .card-imagen-horizontal{
     width: 100%;
     aspect-ratio: 1.5/1.1;
     object-fit: cover;
+   
 }
 
 .card > h3 > span {
@@ -139,20 +152,11 @@
 }
 
 .boton:hover{
-    
     color: black;
     cursor: pointer;
     transform: scale(1.05);
-   
 }
 
-.card-skills{
-    padding-block:3% ;
-    margin-top: 9rem;
-    margin-bottom: 6rem;
-    display: flex;
-    flex-direction: column;
-}
 
 .portfolio{
     margin-top: 25%;
@@ -160,6 +164,8 @@
     justify-content: center;
     font-size:3rem ; 
     letter-spacing:1.7rem;
+    color: wheat;
+    font-weight: 900;
 }
 @media (max-width: 600px) {
     .portfolio{
@@ -167,30 +173,48 @@
     }
 }
 
-.card-skills-badges{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
-    margin: auto;
-   
-   
-}
+
 
 .card-portfolio-text-big{
     text-align: center;
     font-size: 1.3rem;
+    margin-top: 0rem;
+    
 }
 
 .card-portfolio-text{
-    margin-top: -1rem;
+    margin-top: -2.5rem;
     text-align: center;
+    
 }
 
-footer{
-    margin-block: -0.8rem;
-
+.card-boton {
+  background-color:#efb229;
+  border: none;
+  margin-right: 2rem;
+  margin-block: 0.6rem;
+  color:wheat;
+  padding: 8px 23px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1.2px solid black;
+  transition: all 0.5s; 
+  
+  box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075);
+      
 }
+
+.card-boton:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
 
  </style>
 

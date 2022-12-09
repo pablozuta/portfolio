@@ -1,10 +1,10 @@
 <script>
     import Acordion from "$lib/Acordion.svelte";
     const data = {
-		'Web Programming With Python And JavaScript': ['HTML and CSS','Git','Python', 'Django', 'SQL Models and Migrations', 'JavaScript', 'User Interfaces', 'Testing CI/CD', 'Scalability and Usability' ],
+		'CS50w Python And JavaScript': ['HTML and CSS','Git','Python', 'Django', 'SQL Models and Migrations', 'JavaScript', 'User Interfaces', 'Testing CI/CD', 'Scalability and Usability' ],
 
 		'Computing in Python III (Data Structures)': ['Data Structures','Strings','LIsts','File Input and Output','Dictionaries'],
-		'baz': [12,24,42]
+		'Introduction To Software Engineering (IBM)': ['The Software Development Lifecycle','Building Quality Software','Software Documentation', 'Interpreted and Compiled Programming Languages', 'Software Architecture , Design and Patterns', 'Approaches to Application Architecture', 'Architectural Patterns in Software' ,'Production Deployment Components']
 	}
 
   
@@ -50,7 +50,7 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
     }
     .readme{
         margin-inline: 18rem;
-        text-align: center;
+        text-align: left;
     }
     @media (max-width: 900px) {  
    .readme{  
