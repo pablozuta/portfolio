@@ -231,7 +231,7 @@
   .boton {
     background-color: #efb229;
     border: none;
-    color: blanchedalmond;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -242,7 +242,7 @@
   }
 
   .boton:hover {
-    color: black;
+    color: blanchedalmond;
     cursor: pointer;
     transform: scale(1.05);
   }
@@ -271,7 +271,7 @@
       font-size: 2rem;
       letter-spacing: 2rem;
       margin: auto;
-      margin-left: 2rem;
+      margin-left: 0.5rem;
     }
   }
 
