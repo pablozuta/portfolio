@@ -21,25 +21,25 @@
 </p>
 
 
-    <h3>TOOLS</h3>
+    <h3>TECH STACK</h3>
     <div class="container-badges">
     <p class="badges">
-        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-html-5-mobile-app-development-flaticons-lineal-color-flat-icons.png" alt="html5" width="60" height="60"/></a>
+        <a  href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/120930/html.svg" alt="html5" class="icon-badge"/></a>
         
         
-        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/css3.png" alt="css3" width="60" height="60"/> </a>
+        <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/185568/file-css.svg" alt="css3" class="icon-badge" /> </a>
         
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/javascript-logo.png" alt="javascript" width="60" height="60"/> </a> 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="javascript" class="icon-badge" /> </a> 
 
-        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/bubbles/50/null/github.png" alt="git" width="70" height="70"/> </a>  
+        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/374304/git.svg" alt="git" class="icon-badge" /> </a>  
         
             
               
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/bubbles/50/null/react.png" alt="react" width="70" height="70"/> </a> 
+        <a  href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/354259/react.svg" alt="react" class="icon-badge" /> </a> 
         
-        <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/dusk/64/null/svetle.png" alt="svelte" width="40" height="40"/> </a> 
+        <a  href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/374109/svelte.svg" alt="svelte" class="icon-badge"/> </a> 
     
-        <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://img.icons8.com/clouds/100/null/python.png" alt="python" width="70" height="70"/> </a> 
+        <a  href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="python" class="icon-badge"/> </a> 
        </p>
       
     </div>
@@ -70,6 +70,10 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
         font-size: 2rem;
         border-bottom: 3px solid #efb229;
     }
+    p{
+        margin-top: -1.3rem;
+        margin-bottom: 2.5rem;
+    }
     .readme{
         margin-inline: 18rem;
         text-align: left;
@@ -84,8 +88,7 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
 
 
     .container-badges{
-        background-color: #E7B75F;
-        border-radius: 30px;
+        background-color: #efb229;
         box-shadow:
       0 1px 1px hsl(0deg 0% 0% / 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -93,13 +96,25 @@ All the speed he took, all the turns he’d taken and the dripping chassis of a 
       0 8px 8px hsl(0deg 0% 0% / 0.075),
       0 16px 16px hsl(0deg 0% 0% / 0.075);
     }
+    .icon-badge{
+        width: 70px;
+        height: 70px;
+    }
     .badges{
-       
         padding-block: 2rem;
         padding-inline:1rem ;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }@media(max-width:800px){
+        .badges{
+            padding-inline: 1rem;
+            margin-inline: 0.5rem;
+        }
+        .icon-badge{
+            width: 40px;
+            height: 40px;
+        }
     }
 
     

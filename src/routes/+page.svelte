@@ -40,22 +40,28 @@
     <h2 class="portfolio">PROJECTS</h2>  
   </div>
 
+
+
+
+
   <div class="card">
     <img
       src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       class="card-imagen-horizontal"
       alt="imagen art magazine website"
     />
+    <div class="container-botones-card">
     <!--botones con links a webpage y repositorio-->
     <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-    <a href="https://magazine-puce.vercel.app/">
+    <a href="https://github.com/pablozuta/art-magazine">
         <button class="card-boton">CODE</button>
     </a>
     <!--termino botones con links a webpage y repositorio-->
 
-    <h4 class="card-portfolio-text-big">Magazine</h4>
+    <h4 class="card-portfolio-text-big">MAGAZINE</h4>
+    </div>
 
     <br />
 
@@ -73,6 +79,8 @@
       alt="imagen of emily speed"
     />
 
+    
+     <div class="container-botones-card" >
      <!--botones con links a webpage y repositorio-->
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
@@ -82,7 +90,8 @@
     </a>
     <!--termino botones con links a webpage y repositorio-->
 
-    <h4 class="card-portfolio-text-big">Emily Speed</h4>
+    <h4 class="card-portfolio-text-big">TYPOGRAPHY</h4>
+        </div>
     <br />
 
     <p class="card-portfolio-text">
@@ -98,6 +107,7 @@
       class="card-imagen-horizontal"
       alt="imagen of emily speed"
     />
+    <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
@@ -108,6 +118,7 @@
     <!--termino botones con links a webpage y repositorio-->
 
     <h4 class="card-portfolio-text-big">VALIS</h4>
+  </div>
     <br />
 
     <p class="card-portfolio-text">
@@ -124,6 +135,7 @@
       class="card-imagen-horizontal"
       alt="imagen of lucy Mckenzie"
     />
+    <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
@@ -132,7 +144,8 @@
         <button class="card-boton">CODE</button>
     </a>
     <!--termino botones con links a webpage y repositorio-->
-    <h4 class="card-portfolio-text-big">Love Your Work</h4>
+    <h4 class="card-portfolio-text-big">VICTORY</h4>
+  </div>
     <br />
 
     <p class="card-portfolio-text">
@@ -148,6 +161,7 @@
       class="card-imagen-horizontal"
       alt="imagen of lucy Mckenzie"
     />
+    <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
@@ -156,7 +170,8 @@
         <button class="card-boton">CODE</button>
     </a>
     <!--termino botones con links a webpage y repositorio-->
-    <h4 class="card-portfolio-text-big">Harvard Design</h4>
+    <h4 class="card-portfolio-text-big">COIN MARKET</h4>
+    </div>
     <br />
 
     <p class="card-portfolio-text">
@@ -205,6 +220,14 @@
     border-radius: 2px;
   }
 
+  .container-botones-card{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+    margin-left: -0.4rem;
+    flex-wrap: wrap;
+  }
+
   .boton {
     background-color: #efb229;
     border: none;
@@ -239,29 +262,31 @@
     margin-block: -0.1rem;
     font-size: 3rem;
     letter-spacing: 1.6rem;
-    color: wheat;
+    color: #fc5d41;
     font-weight: 900;
-    line-height: 4.1rem;
- 
-    
+    line-height: 4.1rem;   
   }
   @media (max-width: 600px) {
     .portfolio {
       font-size: 2rem;
       letter-spacing: 2rem;
       margin: auto;
+      margin-left: 2rem;
     }
   }
 
   .card-portfolio-text-big {
-    text-align: center;
+    
     font-size: 1.3rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
+ 
+    
   }
 
   .card-portfolio-text {
     margin-top: -2.5rem;
-    text-align: center;
+    text-align: left;
+
   }
 
   .card-boton {
@@ -269,17 +294,15 @@
     border: none;
     margin-right: 2rem;
     margin-block: 0.6rem;
-    color: wheat;
+    color: blanchedalmond;
     padding: 8px 23px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.1rem;
     border-radius: 3px;
-    border: 1.2px solid black;
+    border: 1.8px solid black;
     transition: all 0.5s;
-    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-      0 2px 2px hsl(0deg 0% 0% / 0.075);
-  }
+      }
 
   .card-boton:hover {
     color: black;
