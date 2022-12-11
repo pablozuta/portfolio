@@ -268,10 +268,10 @@
   }
   @media (max-width: 600px) {
     .portfolio {
-      font-size: 2rem;
-      letter-spacing: 2rem;
+      font-size: 1.9rem;
+      letter-spacing: 1.6rem;
       margin: auto;
-      margin-left: 0.5rem;
+      margin-left: 0.3rem;
     }
   }
 
