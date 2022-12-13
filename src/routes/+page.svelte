@@ -60,7 +60,7 @@
     </a>
     <!--termino botones con links a webpage y repositorio-->
 
-    <h4 class="card-portfolio-text-big">MAGAZINE</h4>
+   
     </div>
 
     <br />
@@ -90,7 +90,6 @@
     </a>
     <!--termino botones con links a webpage y repositorio-->
 
-    <h4 class="card-portfolio-text-big">TYPOGRAPHY</h4>
         </div>
     <br />
 
@@ -117,7 +116,6 @@
     </a>
     <!--termino botones con links a webpage y repositorio-->
 
-    <h4 class="card-portfolio-text-big">VALIS</h4>
   </div>
     <br />
 
@@ -144,7 +142,6 @@
         <button class="card-boton">CODE</button>
     </a>
     <!--termino botones con links a webpage y repositorio-->
-    <h4 class="card-portfolio-text-big">VICTORY</h4>
   </div>
     <br />
 
@@ -170,7 +167,6 @@
         <button class="card-boton">CODE</button>
     </a>
     <!--termino botones con links a webpage y repositorio-->
-    <h4 class="card-portfolio-text-big">COIN MARKET</h4>
     </div>
     <br />
 
@@ -183,6 +179,7 @@
 </div>
 
 <style>
+
   .nombre {
     font-size: 2rem;
   }
@@ -223,9 +220,9 @@
   .container-botones-card{
     display: flex;
     margin-bottom: 1rem;
-    justify-content: space-around;
-    margin-left: -0.4rem;
-    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-top: -0.4rem;
+   
   }
 
   .boton {
@@ -256,32 +253,29 @@
     justify-content:flex-start;
     display: flex;
     flex-direction: column;
+    
     }
 
   .portfolio {
     margin-block: -0.1rem;
-    font-size: 3rem;
-    letter-spacing: 1.6rem;
+    font-size: 2.9rem;
+    letter-spacing: 1.5rem;
     color: #fc5d41;
     font-weight: 900;
-    line-height: 4.1rem;   
-  }
-  @media (max-width: 600px) {
+    line-height: 4.1rem;  
+ 
+  }@media (max-width: 600px) {
     .portfolio {
       font-size: 1.9rem;
-      letter-spacing: 1.6rem;
+      letter-spacing: 1.3rem;
       margin: auto;
-      margin-left: 0.3rem;
+      margin-left: 1.9rem;
+      
+      
     }
   }
 
-  .card-portfolio-text-big {
-    
-    font-size: 1.3rem;
-    margin-top: 1rem;
- 
-    
-  }
+
 
   .card-portfolio-text {
     margin-top: -2.5rem;
