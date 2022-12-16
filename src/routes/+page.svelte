@@ -43,7 +43,7 @@
 
 
 
-
+  <!--inicio card social media app-->
   <div class="card">
     <img
       src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -52,84 +52,114 @@
     />
     <div class="container-botones-card">
     <!--botones con links a webpage y repositorio-->
-    <a href="https://magazine-puce.vercel.app/">
+    <a href="https://social-eight-alpha.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-    <a href="https://github.com/pablozuta/art-magazine">
+   <!--  <a href="https://github.com/pablozuta/art-magazine">
         <button class="card-boton">CODE</button>
-    </a>
+    </a> -->
     <!--termino botones con links a webpage y repositorio-->
-
-   
     </div>
+ 
 
     <br />
 
     <p class="card-portfolio-text">
-      McKenzie collaborates with other creatives regularly. Through her
-      collaborations, she challenges the notion of authorship by pointing to the
-      strength of collective actions.
+      Social media app using react and material ui , implementing functionalities sucha as shared layout , responsive design , registration , login and light/dark mode themes.
     </p>
   </div>
+  <!--termino card social media app-->
 
+
+
+ <!--inicio card art magazine-->
   <div class="card">
     <img
-      src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+      src="https://readcereal.com/wp-content/uploads/2021/05/Cereal-volume-21-shop-cover-1455x976.jpg"
       class="card-imagen-horizontal"
-      alt="imagen of emily speed"
+      alt="art magazine"
     />
-
     
      <div class="container-botones-card" >
      <!--botones con links a webpage y repositorio-->
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-    <a href="https://magazine-puce.vercel.app/">
+  <!--   <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">CODE</button>
-    </a>
+    </a> -->
     <!--termino botones con links a webpage y repositorio-->
 
         </div>
     <br />
 
     <p class="card-portfolio-text">
-      Experience a new film installation by North West based artist Emily Speed.
-      The film is inspired by Edwin Abbott’s 1884 novella Flatland, a satire of
-      Victorian society.
+      Art Magazine using HTML and CSS
     </p>
   </div>
+<!--termino card art magazine-->
 
+
+
+<!--inicio card crypto market-->
   <div class="card">
     <img
-      src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+      src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       class="card-imagen-horizontal"
       alt="imagen of emily speed"
     />
     <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
-     <a href="https://magazine-puce.vercel.app/">
+     <a href="https://coin-market-chi.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-    <a href="https://magazine-puce.vercel.app/">
+   <!--  <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">CODE</button>
-    </a>
+    </a> -->
     <!--termino botones con links a webpage y repositorio-->
 
   </div>
     <br />
 
     <p class="card-portfolio-text">
-      And I love the kind of ongoing love affair, aesthetically and politically,
-      between Black Americans and Puerto Ricans. There’s been so much synergy,
-      especially in the Bronx, in East Harlem, Lower East Side, and parts of
-      Brooklyn.
+      Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum
     </p>
   </div>
+<!--termino card crypto market-->
 
+
+
+<!--inicio card tipografia-->
   <div class="card">
     <img
-      src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+      src="https://images.unsplash.com/photo-1581080247486-57989c1f14ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+      class="card-imagen-horizontal"
+      alt="imagen de libro tipografia"
+    />
+    <div class="container-botones-card">
+     <!--botones con links a webpage y repositorio-->
+     <a href="https://typography-svelte.vercel.app/">
+        <button class="card-boton">LIVE</button>
+    </a>
+   <!--  <a href="https://magazine-puce.vercel.app/">
+        <button class="card-boton">CODE</button>
+    </a> -->
+    <!--termino botones con links a webpage y repositorio-->
+  </div>
+    <br />
+
+    <p class="card-portfolio-text">
+      Typography page using materials from the California Institute of the Arts course "introduction to typography" , made with Svelte.
+    </p>
+  </div>
+<!--termino card tipografia-->
+
+
+
+<!--inicio card full stack blog-->
+  <div class="card">
+    <img
+      src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
       class="card-imagen-horizontal"
       alt="imagen of lucy Mckenzie"
     />
@@ -138,42 +168,15 @@
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-    <a href="https://magazine-puce.vercel.app/">
+   <!--  <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">CODE</button>
-    </a>
-    <!--termino botones con links a webpage y repositorio-->
-  </div>
-    <br />
-
-    <p class="card-portfolio-text">
-      Can architecture and design write scenarios for the next generation of
-      work? What will it take to anticipate and formulate work environments and
-      experiences that are productive, humane, and ecologically responsible?
-    </p>
-  </div>
-
-  <div class="card">
-    <img
-      src="https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80"
-      class="card-imagen-horizontal"
-      alt="imagen of lucy Mckenzie"
-    />
-    <div class="container-botones-card">
-     <!--botones con links a webpage y repositorio-->
-     <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">LIVE</button>
-    </a>
-    <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">CODE</button>
-    </a>
+    </a> -->
     <!--termino botones con links a webpage y repositorio-->
     </div>
     <br />
 
     <p class="card-portfolio-text">
-      Contemporary public space projects should address both the digital and the
-      physical layer of a place. The two are becoming increasingly
-      interconnected and dependent on each other.
+      Fullstack Blog app using react , mysql implementing JWT for registration and login
     </p>
   </div>
 </div>
@@ -288,9 +291,9 @@
     border: none;
     margin-right: 2rem;
     margin-block: 0.6rem;
-    color: blanchedalmond;
+    color: #121212;
     padding: 8px 23px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     font-size: 1.1rem;
     border-radius: 3px;
@@ -299,7 +302,7 @@
       }
 
   .card-boton:hover {
-    color: black;
+    color: blanchedalmond;
     cursor: pointer;
     transform: scale(1.05);
   }
