@@ -10,7 +10,7 @@
 
     <div class="card">
       <h3 class="nombre">Hi , I'm <span>Pablo</span></h3>
-      <h4 class="based">I'm a developer based in Chile</h4>
+      <h4 class="based">I'm a Web Developer based in Chile</h4>
 
       <p style="line-height: 1.8rem;">
         I have a passion for technology and am always looking to learn and
@@ -48,7 +48,7 @@
     <img
       src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       class="card-imagen-horizontal"
-      alt="imagen art magazine website"
+      alt="imagen social media"
     />
     <div class="container-botones-card">
     <!--botones con links a webpage y repositorio-->
@@ -65,7 +65,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Social media app using react and material ui , implementing functionalities sucha as shared layout , responsive design , registration , login and light/dark mode themes.
+      Social media App using React and Material ui , implementing functionalities such as shared layout , responsive design , reading from a database and light/dark mode themes.
     </p>
   </div>
   <!--termino card social media app-->
@@ -94,7 +94,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Art Magazine using HTML and CSS
+      Art Magazine using HTML and CSS.
     </p>
   </div>
 <!--termino card art magazine-->
@@ -106,7 +106,7 @@
     <img
       src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
       class="card-imagen-horizontal"
-      alt="imagen of emily speed"
+      alt="imagen de bitcoin"
     />
     <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
@@ -122,7 +122,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum
+      Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.
     </p>
   </div>
 <!--termino card crypto market-->
@@ -149,7 +149,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Typography page using materials from the California Institute of the Arts course "introduction to typography" , made with Svelte.
+      Typography page using materials from the California Institute of the Arts course "introduction to typography" , made with Svelte and images hosting on Cloudinary.
     </p>
   </div>
 <!--termino card tipografia-->
@@ -161,7 +161,7 @@
     <img
       src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
       class="card-imagen-horizontal"
-      alt="imagen of lucy Mckenzie"
+      alt="imagen escritorio con notebook y taza de cafe"
     />
     <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
@@ -176,7 +176,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Fullstack Blog app using react , mysql implementing JWT for registration and login
+      Blog App using React.
     </p>
   </div>
 </div>

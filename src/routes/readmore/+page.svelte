@@ -34,23 +34,45 @@
 </script>
 
 <div class="readme">
-  <h3>THE PROCESS</h3>
+  <h3>THE JOURNEY</h3>
   <p>
-    Ich bin von je der Ordnung Freund gewesen. Es irrt der Mensch, wenn er gut
-    gezogen, Wird selbst ein weiser Mann gewogen. Vernunft fängt wieder an zu
-    sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn;
-    Man sehnt sich nach des Lebens Quelle hin.
+    As a self-taught web developer, I have experienced both the rewards and
+    challenges of learning this field on my own. It has required a lot of
+    dedication and motivation to learn the various technologies and concepts,
+    and there have been times when I have felt frustrated or overwhelmed.
   </p>
   <p>
-    They floated in the center of his closed left eyelid. He stared at the rear
-    of the arcade showed him broken lengths of damp chipboard and the dripping
-    chassis of a gutted game console.
+    However, I have found that the key to success is to start with a good
+    resource, such as a tutorial or online course, that covers the basics of
+    HTML, CSS, and JavaScript. These are the foundational technologies for
+    building websites and web applications, and it's important to have a solid
+    understanding of them before moving on to more advanced topics.
   </p>
   <p>
-    The color of its skin reminded him of Zone’s whores; it was a handgun and
-    nine rounds of ammunition, and as he made his way down Shiga from the sushi
-    stall he cradled it in his jacket pocket.
+    As I progressed through my learning, I found it helpful to practice my
+    skills by building small projects or websites. This gave me a sense of what
+    it's like to work on a real-world project and also allowed me to show my
+    work to potential employers or clients.
   </p>
+  <p>
+    One of the biggest challenges I faced as a self-taught web developer was
+    staying motivated and on track. It can be easy to get discouraged or lose
+    focus, especially when you're learning on your own. To stay motivated, I set
+    small, achievable goals for myself and celebrated my progress along the way.
+    I also connected with other self-taught developers and joined online
+    communities to get support and encouragement.
+  </p>
+  <p>
+    I am also willing to try new things and take on new challenges, even if I
+    don't have a lot of experience in a particular area. I know that the best
+    way to learn is to get hands-on experience and make mistakes, and I am
+    always looking for opportunities to do so. Overall, my willingness to keep
+    learning and growing as a web developer has helped me to become a better
+    developer and to take on more complex and rewarding projects. I am excited
+    to see where my learning journey will take me next.
+  </p>
+  <br>
+  <br>
 
   <h3>TECH STACK</h3>
   <div class="container-badges">
@@ -118,29 +140,6 @@
   </div>
   <br />
   <br />
-  <br />
-  <h3>RESOURCES</h3>
-  <p>
-    That was Wintermute, manipulating the lock the way it had manipulated the
-    drone micro and the drifting shoals of waste. He woke and found her
-    stretched beside him in the coffin for Armitage’s call.
-  </p>
-  <p>
-    After the postoperative check at the clinic, Molly took him to the simple
-    Chinese hollow points Shin had sold him. That was Wintermute, manipulating
-    the lock the way it had manipulated the drone micro and the drifting shoals
-    of waste.
-  </p>
-  <p>
-    The alarm still oscillated, louder here, the rear wall dulling the roar of
-    the deck sting his palm as he made his way down Shiga from the sushi stall
-    he cradled it in his devotion to esoteric forms of tailor-worship. All the
-    speed he took, all the turns he’d taken and the dripping chassis of a heroin
-    factory. That was Wintermute, manipulating the lock the way it had
-    manipulated the drone micro and the corners he’d cut in Night City, and
-    still he’d see the matrix in his sleep, and wake alone in the coffin for
-    Armitage’s call.
-  </p>
 
   <h3>COURSES</h3>
 
@@ -169,7 +168,6 @@
     }
   }
 
-
   .icon-badge {
     width: 70px;
     height: 70px;
@@ -181,7 +179,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }@media (max-width: 800px) {
+  }
+  @media (max-width: 800px) {
     .badges {
       padding-inline: 0.3rem;
       margin-inline: 0.5rem;
