@@ -10,7 +10,7 @@
   </p>
   <p>
     However, I have found that the key to success is to start with a good
-    resource, such as a tutorial or online course, that covers the fundamentals
+    resource, such as a tutorial or online course, that covers the fundamentals and show how the different parts of the tech stack work together.
   </p>
   <p>
     As I progressed through my learning, I found it helpful to practice my
@@ -99,8 +99,7 @@
       </a>
     </p>
   </div>
-  <br />
-  <br />
+  
 
   <h3>COURSES</h3>        
   <ul>
