@@ -1,37 +1,4 @@
-<script>
-  import Acordion from '$lib/Acordion.svelte'
-  const data = {
-    'CS50w Python And JavaScript': [
-      'HTML and CSS',
-      'Git',
-      'Python',
-      'Django',
-      'SQL Models and Migrations',
-      'JavaScript',
-      'User Interfaces',
-      'Testing CI/CD',
-      'Scalability and Usability',
-    ],
 
-    'Computing in Python III (Data Structures)': [
-      'Data Structures',
-      'Strings',
-      'LIsts',
-      'File Input and Output',
-      'Dictionaries',
-    ],
-    'Introduction To Software Engineering (IBM)': [
-      'The Software Development Lifecycle',
-      'Building Quality Software',
-      'Software Documentation',
-      'Interpreted and Compiled Programming Languages',
-      'Software Architecture , Design and Patterns',
-      'Approaches to Application Architecture',
-      'Architectural Patterns in Software',
-      'Production Deployment Components',
-    ],
-  }
-</script>
 
 <div class="readme">
   <h3>THE JOURNEY</h3>
@@ -43,10 +10,7 @@
   </p>
   <p>
     However, I have found that the key to success is to start with a good
-    resource, such as a tutorial or online course, that covers the basics of
-    HTML, CSS, and JavaScript. These are the foundational technologies for
-    building websites and web applications, and it's important to have a solid
-    understanding of them before moving on to more advanced topics.
+    resource, such as a tutorial or online course, that covers the fundamentals
   </p>
   <p>
     As I progressed through my learning, I found it helpful to practice my
@@ -62,14 +26,11 @@
     I also connected with other self-taught developers and joined online
     communities to get support and encouragement.
   </p>
+   <h3>THE FUTURE</h3>
   <p>
-    I am also willing to try new things and take on new challenges, even if I
+    I am willing to try new things and take on new challenges, even if I
     don't have a lot of experience in a particular area. I know that the best
-    way to learn is to get hands-on experience and make mistakes, and I am
-    always looking for opportunities to do so. Overall, my willingness to keep
-    learning and growing as a web developer has helped me to become a better
-    developer and to take on more complex and rewarding projects. I am excited
-    to see where my learning journey will take me next.
+    way to learn is to get hands-on experience and I am always looking for opportunities to do so. Overall, my willingness to keep learning and growing as a web developer has helped me to become a better developer and to take on more complex and rewarding projects. I am excited to see where my learning journey will take me next.
   </p>
   <br>
   <br>
@@ -141,11 +102,15 @@
   <br />
   <br />
 
-  <h3>COURSES</h3>
+  <h3>COURSES</h3>        
+  <ul>
+    <li>CS50 Web Programming With Python and Javascript</li>
+    <li>Introduction to Typography</li>
+    <li>Web Development With React</li>
+    <li>Introduction to Software Engineering</li>
+  </ul>
 
-  {#each Object.entries(data) as entry}
-    <Acordion {entry} />
-  {/each}
+ 
 </div>
 
 <style>
