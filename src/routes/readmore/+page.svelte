@@ -1,5 +1,3 @@
-
-
 <div class="readme">
   <h3>THE JOURNEY</h3>
   <p>
@@ -9,31 +7,36 @@
     and there have been times when I have felt frustrated or overwhelmed.
   </p>
   <p>
-    However, I have found that the key to success is to start with a good
-    resource, such as a tutorial or online course, that covers the fundamentals and show how the different parts of the tech stack work together.
+    One of the biggest challenges was staying motivated and on track. It can be
+    easy to get discouraged or lose focus, especially when you're learning on
+    your own.Also connect with other developers and join online communities to
+    get support and encouragement.
   </p>
   <p>
-    As I progressed through my learning, I found it helpful to practice my
-    skills by building small projects or websites. This gave me a sense of what
-    it's like to work on a real-world project and also allowed me to show my
-    work to potential employers or clients.
+    To stay motivated, I set small, achievable goals and celebrated my progress
+    along the way.I have found that the key to success is to start with a good
+    resource, such as a tutorial or online course that covers the fundamentals
+    and show how the different parts of the tech stack work together.
   </p>
   <p>
-    One of the biggest challenges I faced as a self-taught web developer was
-    staying motivated and on track. It can be easy to get discouraged or lose
-    focus, especially when you're learning on your own. To stay motivated, I set
-    small, achievable goals for myself and celebrated my progress along the way.
-    I also connected with other self-taught developers and joined online
-    communities to get support and encouragement.
+    I found it helpful to practice my skills by building small projects or
+    websites. This gave me a sense of what it's like to work on a real-world
+    project and also allowed me to show my work to potential employers or
+    clients.
   </p>
-   <h3>THE FUTURE</h3>
+
+  <h3>THE FUTURE</h3>
   <p>
-    I am willing to try new things and take on new challenges, even if I
-    don't have a lot of experience in a particular area. I know that the best
-    way to learn is to get hands-on experience and I am always looking for opportunities to do so. Overall, my willingness to keep learning and growing as a web developer has helped me to become a better developer and to take on more complex and rewarding projects. I am excited to see where my learning journey will take me next.
+    I am willing to try new things and take on new challenges, even if I don't
+    have a lot of experience in a particular area. I know that the best way to
+    learn is to get hands-on experience and I am always looking for
+    opportunities to do so. Overall, my willingness to keep learning and growing
+    as a web developer has helped me to become a better developer and to take on
+    more complex and rewarding projects. I am excited to see where my learning
+    journey will take me next.
   </p>
-  <br>
-  <br>
+  <br />
+  <br />
 
   <h3>TECH STACK</h3>
   <div class="container-badges">
@@ -99,9 +102,8 @@
       </a>
     </p>
   </div>
-  
 
-  <h3>COURSES</h3>        
+  <h3>COURSES</h3>
   <ul>
     <li>CS50 Web Programming With Python and Javascript</li>
     <li>Introduction to Typography</li>
@@ -109,7 +111,9 @@
     <li>Introduction to Software Engineering</li>
   </ul>
 
- 
+  <br />
+  <br />
+  <br />
 </div>
 
 <style>
