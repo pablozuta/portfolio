@@ -9,8 +9,7 @@
   <p>
     One of the biggest challenges was staying motivated and on track. It can be
     easy to get discouraged or lose focus, especially when you're learning on
-    your own.Also connect with other developers and join online communities to
-    get support and encouragement.
+    your own.
   </p>
   <p>
     To stay motivated, I set small, achievable goals and celebrated my progress
@@ -22,18 +21,16 @@
     I found it helpful to practice my skills by building small projects or
     websites. This gave me a sense of what it's like to work on a real-world
     project and also allowed me to show my work to potential employers or
-    clients.
+    clients.Also connecting with other developers and joining online communities
+    to get support and encouragement was a pretty good idea.
   </p>
 
   <h3>THE FUTURE</h3>
   <p>
-    I am willing to try new things and take on new challenges, even if I don't
-    have a lot of experience in a particular area. I know that the best way to
-    learn is to get hands-on experience and I am always looking for
-    opportunities to do so. Overall, my willingness to keep learning and growing
-    as a web developer has helped me to become a better developer and to take on
-    more complex and rewarding projects. I am excited to see where my learning
-    journey will take me next.
+    Now I am willing to try new things and take on new challenges and I know that the best
+    way to learn is to get hands-on experience and I am always looking for
+    opportunities to do so. I am excited to see where my learning journey will
+    take me next.
   </p>
   <br />
   <br />
@@ -109,6 +106,7 @@
     <li>Introduction to Typography</li>
     <li>Web Development With React</li>
     <li>Introduction to Software Engineering</li>
+    <li>Ideas From the History of Graphic Design</li>
   </ul>
 
   <br />
