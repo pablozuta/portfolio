@@ -1,12 +1,13 @@
 
 <nav class="barra-navegacion">
     <a class="nombre" href="/"><h3 >pablozuta</h3></a>
+    
     <!--icono link a github-->
     <div class="icons">
-       <a href="https://github.com/pablozuta"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="coding icon"></a>
+       <a href="https://github.com/pablozuta"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="github icon"></a>
 
     <!--icono link a twitter-->   
-        <a href="https://victoryjournal.com/"><img src="https://www.svgrepo.com/show/137277/twitter.svg" alt="web design icon"></a>
+        <a href="https://twitter.com/theCodeOfPablo"><img src="https://www.svgrepo.com/show/137277/twitter.svg" alt="twitter icon"></a>
     </div>
 </nav>
 
