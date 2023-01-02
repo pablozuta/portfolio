@@ -165,12 +165,10 @@
     />
     <div class="container-botones-card">
      <!--botones con links a webpage y repositorio-->
-     <a href="https://magazine-puce.vercel.app/">
+     <a href="https://blog-delta-seven-55.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-   <!--  <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">CODE</button>
-    </a> -->
+   
     <!--termino botones con links a webpage y repositorio-->
     </div>
     <br />
