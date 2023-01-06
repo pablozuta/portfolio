@@ -1,3 +1,10 @@
+<script>
+  
+  import { _ } from 'svelte-i18n'
+ 
+   
+</script>
+
 <main>
   <div class="grid-6" style="padding-block:2%;">
     <div class="card">
@@ -9,17 +16,15 @@
     </div>
 
     <div class="card">
-      <h3 class="nombre">Hi , I'm <span>Pablo</span></h3>
-      <h4 class="based">I'm a Web Developer based in Chile</h4>
+      
+      
+      <h3 class="nombre">{$_("greet")}<span>Pablo</span></h3>
+      <h4 class="based">{$_("dev")}</h4>
 
       <p style="line-height: 1.8rem;">
-        I have a passion for technology and am always looking to learn and
-        improve my skills. My skillset includes HTML, CSS, JavaScript, and
-        various frameworks and libraries such as React and Svelte. In my free
-        time, I enjoy making music and exploring new ways to express myself
-        creatively.
+        {$_("have")}
       </p>
-      <a href="/readmore"><button class="boton">Read More</button></a>
+      <a href="/readmore"><button class="boton">{$_("readMore")}</button></a>
     </div>
   </div>
 </main>
@@ -55,9 +60,7 @@
     <a href="https://social-eight-alpha.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-   <!--  <a href="https://github.com/pablozuta/art-magazine">
-        <button class="card-boton">CODE</button>
-    </a> -->
+   
     <!--termino botones con links a webpage y repositorio-->
     </div>
  
@@ -65,7 +68,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Social media App using React and Material ui , implementing functionalities such as shared layout , responsive design , reading from a database and light/dark mode themes.
+      {$_("social")}
     </p>
   </div>
   <!--termino card social media app-->
@@ -85,16 +88,14 @@
      <a href="https://magazine-puce.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-  <!--   <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">CODE</button>
-    </a> -->
+ 
     <!--termino botones con links a webpage y repositorio-->
 
         </div>
     <br />
 
     <p class="card-portfolio-text">
-      Art Magazine using HTML and CSS.
+     {$_("art")}
     </p>
   </div>
 <!--termino card art magazine-->
@@ -113,16 +114,14 @@
      <a href="https://coin-market-chi.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-   <!--  <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">CODE</button>
-    </a> -->
+  
     <!--termino botones con links a webpage y repositorio-->
 
   </div>
     <br />
 
     <p class="card-portfolio-text">
-      Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.
+      {$_("crypto")}
     </p>
   </div>
 <!--termino card crypto market-->
@@ -141,15 +140,13 @@
      <a href="https://typography-svelte.vercel.app/">
         <button class="card-boton">LIVE</button>
     </a>
-   <!--  <a href="https://magazine-puce.vercel.app/">
-        <button class="card-boton">CODE</button>
-    </a> -->
+   
     <!--termino botones con links a webpage y repositorio-->
   </div>
     <br />
 
     <p class="card-portfolio-text">
-      Typography page using materials from the California Institute of the Arts course "introduction to typography" , made with Svelte and images hosting on Cloudinary.
+      {$_("typo")}
     </p>
   </div>
 <!--termino card tipografia-->
@@ -174,7 +171,7 @@
     <br />
 
     <p class="card-portfolio-text">
-      Blog App using React.
+      {$_("blog")}
     </p>
   </div>
 </div>

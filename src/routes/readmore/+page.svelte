@@ -1,10 +1,13 @@
+<script>
+  
+  import { _ } from 'svelte-i18n'
+ 
+   
+</script>
 <div class="readme">
-  <h3>THE JOURNEY</h3>
+  <h3>{$_("journey")}</h3>
   <p>
-    As a self-taught web developer, I have experienced both the rewards and
-    challenges of learning this field on my own. It has required a lot of
-    dedication and motivation to learn the various technologies and concepts,
-    and there have been times when I have felt frustrated or overwhelmed.
+    {$_("j1")}
   </p>
   <p>
     One of the biggest challenges was staying motivated and on track. It can be
