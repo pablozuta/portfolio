@@ -18,10 +18,12 @@
 <nav class="barra-navegacion">
     <a class="nombre" href="/"><h3 >pablozuta</h3></a>
     
-    <!--icono link a github-->
+    
+    
     <div class="icons">
-        <button on:click={cambioLenguajeEspañol} class="boton">Español</button>
-      <button on:click={cambioLenguajeIngles} class="boton">Ingles</button>
+        <button on:click={cambioLenguajeEspañol} class="boton">ES</button>
+      <button on:click={cambioLenguajeIngles} class="boton">EN</button>
+      <!--icono link a github-->
        <a href="https://github.com/pablozuta"> <img src="https://www.svgrepo.com/show/353136/github.svg" alt="github icon"></a>
 
     <!--icono link a twitter-->   
@@ -65,6 +67,21 @@
 .nombre:hover{
    cursor: pointer;
     color: bisque;
+}
+.boton{
+    background-color: transparent;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    margin-right: 0.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    border: none;
+}
+.boton:hover{
+   cursor: pointer;
+   border-bottom: 1px solid #555;
+   
 }
 
 

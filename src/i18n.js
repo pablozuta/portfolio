@@ -12,6 +12,11 @@ addMessages("en", {
   blog: "Blog App using React.",
   journey:"THE JOURNEY",
   j1: "As a self-taught web developer, I have experienced both the rewards and challenges of learning this field on my own. It has required a lot of dedication and motivation to learn the various technologies and concepts, and there have been times when I have felt frustrated or overwhelmed.",
+  j2: " One of the biggest challenges was staying motivated and on track. It can be easy to get discouraged or lose focus, especially when you're learning on your own.",
+  j3: "I found it helpful to set small, achievable goals and practice my skills by building projects and websites. This gave me a sense of what it's like to work on a real-world project and also allowed me to show my work to potential employers or clients. Also connecting with other developers and joining online communities to get support, encouragement and ideas was helpful in building my skills.",
+  future: "THE FUTURE",
+  f1: " Now I am willing to try new things and take on new challenges and I know that the best way to learn is to get hands-on experience and I am always looking for opportunities to do so. I am excited to see where my learning journey will take me next.",
+  courses: "COURSES",
   
 })
 addMessages("es", {
@@ -27,5 +32,11 @@ addMessages("es", {
   journey:"EL CAMINO",
   j1: "As a self-taught web developer, I have experienced both the rewards and challenges of learning this field on my own. It has required a lot of dedication and motivation to learn the various technologies and concepts, and there have been times when I have felt frustrated or overwhelmed.",
   j1: "Como Desarrollador autodidacta eh experimentado tanto los exitos y las dificultades de aprender este campo por mi cuenta. A requerido un monton de dedicacion y motivacion para aprender las varias tecnologias y conceptos , en ocaciones me eh sentido frustrado o abrumado.",
+  j2: "Uno de los mayores desafios a sido mantener la motivacion y no perder el rumbo. Puede ser facil perder la motivacion y el foco cuando estas aprendiendo por tu cuenta",
+  j3: "Algo que fue beneficioso fue ponerme metas que fueran pequeñas y a mi alcanze y practicar mis habilidades contruyendo proyectos y websites. Esto me dio un sentido de como es la dinamica de trabajo en un proyecto del mundo real y a la vez me permite mostrar mi trabajo a potenciales clientes y empleadores. Tambien, conectar con otros desarrolladores y unirme a comunidades online que brindan soporte, ideas y enseñanzas a sido beneficioso en seguir mejorando mis capacidades",
+  future: "EL FUTURO",
+  
+  f1:"En este momento estoy con ansias de probar cosas nuevas y tomar nuevos desafios , se que la mejor manera de aprender es con experiencia practica asi que estoy siempre buscando oportunidades para llevar esto a cabo. Estoy expectante por ver hacia donde me llevara mi camino de aprendizaje en el tiempo que viene.",
+  courses: "EDUCACION",
   
 })
