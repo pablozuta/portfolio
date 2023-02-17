@@ -1,0 +1,220 @@
+<script>
+  import { _ } from 'svelte-i18n'
+</script>
+
+<div class="readme">
+  <h3></h3>
+  <p>
+    {$_('j1')}  
+  </p>
+  
+ 
+  <p>
+    {$_('j3')}
+  </p>
+
+ 
+  <p>
+   {$_('f1')}
+  </p>
+ 
+
+  <h3>TECH STACK</h3>
+  <div class="container-badges">
+
+    <div class="container-badges-group">
+   
+      <div class="container-badges-card">
+ 
+        <img
+          src="https://www.svgrepo.com/show/120930/html.svg"
+          alt="html5"
+          class="icon-badge"
+        /> 
+        <br>
+        <br>
+        <p>{$_('html')}</p>
+      </div>
+            
+    
+      <div class="container-badges-card">
+      
+        <img
+          src="https://www.svgrepo.com/show/185568/file-css.svg"
+          alt="css3"
+          class="icon-badge"
+        /> 
+        <br>
+        <br>
+        <p>{$_('css')}</p>
+      </div>
+    </div>
+
+    <div class="container-badges-group">
+      <div class="container-badges-card">
+        <img
+          src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+          alt="javascript"
+          class="icon-badge"
+        />
+        <br>
+        <br>
+        <p>{$_('javascript')}</p>
+      </div>
+
+      <div class="container-badges-card">
+        <img
+          src="https://www.svgrepo.com/show/374304/git.svg"
+          alt="git"
+          class="icon-badge"
+        />
+        <br>
+        <br>
+        <p>{$_('git')}</p>
+      </div>
+      </div>
+
+      <div class="container-badges-group">
+      <div class="container-badges-card">
+        <img
+          src="https://www.svgrepo.com/show/354259/react.svg"
+          alt="react"
+          class="icon-badge"
+        /> 
+        <br>
+        <br>
+        <p>{$_('react')}</p>
+      </div>
+
+      <div class="container-badges-card">
+
+      
+        <img
+          src="https://www.svgrepo.com/show/374109/svelte.svg"
+          alt="svelte"
+          class="icon-badge"
+        /> 
+        <br>
+        <br>
+        <p>{$_('svelte')}</p>
+     
+      </div>
+    </div>
+
+    <div class="container-badges-group">
+      <div class="container-badges-card">
+        <img
+          src="https://cdn.worldvectorlogo.com/logos/python-5.svg"
+          alt="python"
+          class="icon-badge"
+        />
+        <br>
+        <br>
+        <p>{$_('python')}</p>
+     
+      </div>
+      <div class="container-badges-card">
+        <img
+        src="https://www.svgrepo.com/show/355038/golang.svg"
+        alt="golang"
+        class="icon-badge"
+      />
+      <br>
+      <br>
+      <p>{$_('golang')}</p>
+      
+      </div>
+      </div>
+   
+  </div>
+
+  <h3>{$_('courses')}</h3>
+  <ul>
+    <li>CS50 Web Programming With Python and Javascript</li>
+    <li>Introduction to Typography</li>
+    <li>Web Development With React</li>
+    <li>Introduction to Software Engineering</li>
+    <li>Ideas From the History of Graphic Design</li>
+  </ul>
+
+  <br />
+  <br />
+  <br />
+</div>
+
+<style>
+  h3 {
+    font-size: 2rem;
+    border-bottom: 3px solid #efb229;
+  }
+  p {
+    margin-top: -1.3rem;
+    margin-bottom: 2.5rem;
+  }
+  .readme {
+    margin-inline: 18rem;
+    text-align: left;
+  }
+
+  @media (max-width: 900px) {
+    .readme {
+      margin-inline: 0.5rem;
+    }
+  }
+
+  .icon-badge{
+    width: 100px;
+    align-items: center;
+    
+  }
+  .container-badges{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    margin-inline: 4rem;
+    
+    
+    
+  }
+  .container-badges-group{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    text-align: center;
+    
+      
+  }
+  @media(max-width: 900px){
+    .container-badges-group{
+    margin-inline: -0.5rem;
+    flex-direction: column;
+    
+    
+      
+  }
+
+  }
+  .container-badges-card{
+    background-color: #F1E1C3;
+    /* border: 2px solid #A19D8F;  */
+    border-radius: 10px;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: 300px;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075);
+    
+    
+  }
+
+  
+  
+ 
+ 
+</style>
