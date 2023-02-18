@@ -15,6 +15,7 @@
   }
 </script>
 
+<header>
 <nav class="barra-navegacion">
   <a class="nombre" href="/"><h3>pablozuta</h3></a>
 
@@ -30,6 +31,7 @@
     >
   </div>
 </nav>
+</header>
 
 <slot />
 
