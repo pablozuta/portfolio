@@ -65,44 +65,20 @@
 	<!--termino card social media app-->
 
 
-  
-  <!--inicio card go by example-->
-  <div class="card">
-    <img
-      src="https://dce0qyjkutl4h.cloudfront.net/wp-content/uploads/2020/10/golang-Programing.jpg"
-      class="card-imagen-horizontal"
-      alt="imagen escritorio con notebook y taza de cafe"
-    />
-    <div class="container-botones-card">
-      <!--botones con links a webpage y repositorio-->
-      <a href="https://go-con-ejemplos.vercel.app/">
-        <button class="card-boton">LIVE</button>
-      </a>
-
-      <!--termino botones con links a webpage y repositorio-->
-    </div>
-    <br />
-    
-    <p class="card-portfolio-text">
-      {$_('blog')}
-    </p>
-  </div>
-  <!-- termino card go by example-->
-
 	<!--inicio card art magazine-->
 	<div class="card">
 		<img
-			src="https://readcereal.com/wp-content/uploads/2021/05/Cereal-volume-21-shop-cover-1455x976.jpg"
+			src="https://taiwanhappygo.com/wp-content/uploads/2021/07/%E5%92%96%E5%95%A1%E6%9B%B8.jpg"
 			class="card-imagen-horizontal"
 			alt="art magazine"
 		/>
-
+  
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
 			<a href="https://magazine-puce.vercel.app/">
 				<button class="card-boton">LIVE</button>
 			</a>
-
+  
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
 		<br />
@@ -112,6 +88,8 @@
 		</p>
 	</div>
 	<!--termino card art magazine-->
+  
+  
 
 	
 
@@ -139,7 +117,29 @@
 	</div>
 	<!--termino card tipografia-->
 
-  
+  <!--inicio card go by example-->
+  <div class="card">
+    <img
+      src="https://nextbridge.com/wp-content/uploads/2021/06/Go-Programming-Language-%E2%80%93-Making-a-Mark.jpg"
+      class="card-imagen-horizontal"
+      alt="imagen escritorio con notebook y taza de cafe"
+    />
+    <div class="container-botones-card">
+      <!--botones con links a webpage y repositorio-->
+      <a href="https://go-con-ejemplos.vercel.app/">
+        <button class="card-boton">LIVE</button>
+      </a>
+
+      <!--termino botones con links a webpage y repositorio-->
+    </div>
+    <br />
+    
+    <p class="card-portfolio-text">
+      {$_('blog')}
+    </p>
+  </div>
+  <!-- termino card go by example-->
+
 
 
   <!--inicio card crypto market-->
