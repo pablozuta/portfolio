@@ -185,13 +185,17 @@
 	}
 
 	.imagen-principal {
-		width: 100%;
+		margin-inline: auto;
+		display: grid;
+		width: 85%;
 		aspect-ratio: 1/1;
 		object-fit: cover;
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075), 0 8px 8px hsl(0deg 0% 0% / 0.075),
 			0 16px 16px hsl(0deg 0% 0% / 0.075);
 		border-radius: 3px;
+		justify-items: center;
+		
 	}
 
 	.card-imagen-horizontal {
