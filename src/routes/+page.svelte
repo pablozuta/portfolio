@@ -274,13 +274,14 @@
 		margin-right: 2rem;
 		margin-block: 0.6rem;
 		color: #121212;
-		padding: 8px 23px;
+		padding: 8px 19px;
 		text-align: left;
 		text-decoration: none;
 		font-size: 1.1rem;
 		border-radius: 3px;
 		border: 1.8px solid black;
 		transition: all 0.5s;
+		letter-spacing: 0.2rem;
 	}
 
 	.card-boton:hover {
