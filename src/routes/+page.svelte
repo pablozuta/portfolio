@@ -68,7 +68,7 @@
 	<!--inicio card art magazine-->
 	<div class="card">
 		<img
-			src="https://taiwanhappygo.com/wp-content/uploads/2021/07/%E5%92%96%E5%95%A1%E6%9B%B8.jpg"
+			src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1677382834/generales/KinfolkTravel_BC2A9903_sRGB-1536x1024_nwmwwj.jpg"
 			class="card-imagen-horizontal"
 			alt="art magazine"
 		/>
