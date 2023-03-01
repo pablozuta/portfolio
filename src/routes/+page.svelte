@@ -75,7 +75,7 @@
   
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://magazine-puce.vercel.app/">
+			<a href="https://art-magazine-astro.vercel.app/">
 				<button class="card-boton">LIVE</button>
 			</a>
   
