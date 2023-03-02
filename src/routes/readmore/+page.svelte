@@ -115,13 +115,13 @@
       </div>
       <div class="container-badges-card">
         <img
-        src="https://www.svgrepo.com/show/355038/golang.svg"
-        alt="golang"
+        src="https://www.svgrepo.com/show/373446/astro.svg"
+        alt="astro logo"
         class="icon-badge"
       />
       <br>
       <br>
-      <p>{$_('golang')}</p>
+      <p>{$_('astro')}</p>
       
       </div>
       </div>

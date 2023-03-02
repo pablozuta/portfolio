@@ -10,7 +10,7 @@ addMessages('en', {
   readMore: 'Read More',
   social:
     'Social media App using React and Material UI , implementing functionalities such as shared layout , responsive design , reading from a database and light/dark mode themes.',
-  art: 'Art Magazine Website using HTML and CSS.',
+  art: 'Art Magazine Website build with the Astro framework.',
   crypto:
     'Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.',
   typo: 'Typography page using materials from the California Institute of the Arts course "introduction to typography" , made with Svelte and images hosting on Cloudinary.',
@@ -31,8 +31,8 @@ addMessages('en', {
     'Svelte Framework is a compiler that generates minimal and highly optimized JavaScript code.',
   python:
     'Python is a programming language used successfully in thousands of real-world business applications around the world, including many large and mission critical systems.',
-  golang:
-    'Go, is an open-source, compiled, and statically typed programming language designed by Google. It is built to be simple, high-performing, readable, and efficient.',
+  astro:
+    'Astro represent a leading paradigm shift for frontend web architecture. Astro extracts your UI into smaller, isolated components on the page. Unused JavaScript is replaced with lightweight HTML.',
 })
 addMessages('es', {
   greet: 'Hola, soy ',
@@ -44,7 +44,7 @@ addMessages('es', {
   readMore: 'Leer Mas',
   social:
     'Red Social App usando React y Material UI, implementa funcionalidades como shared layouts , lectura desde base de datos , diseño responsivo y light/dark theme switch.',
-  art: 'Sitio web Revista de Arte usando HTML y CSS.',
+  art: 'Sitio web Revista de Arte construido con el framework Astro.',
   crypto:
     'Buscador de valores crypto usando Svelte para conectarse a la API Gecko y mostrar diferentes tipos de valores de cryptomonedas como Bitcoin y Ethereum.',
   typo: 'Website Educacional sobre Tipografia que usa materiales del curso "Introduction to Typography" del California Institute of the Arts. Creado con Svelte y el servicio Cloudinary como alojamiento de imagenes.',
@@ -65,6 +65,6 @@ addMessages('es', {
     'Svelte es un framework que compila codigo Javascript de una manera minimalista y altamente optimizada.',
   python:
     'Python es un lenguaje de programacion usado exitosamente en miles de proyectos desde aplicaciones de negocios hasta data science y machine learning.',
-  golang:
-    'Go es un lenguaje de programacion estaticamente tipado, compilado y open-source diseñado por Google. Esta construido para ser simple, legible , eficiente y de alto rendimiento.',
+  astro:
+    'Astro representa un cambio de paradigma en la arquitectura del front-end. Astro extrae UI en pequeños componentes en la pagina. El JavaScript no usado es reemplazado por HTML ligero.',
 })
