@@ -6,7 +6,7 @@
 	<div class="grid-6" style="padding-block:2%;">
 		<div class="card">
 			<img
-				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680729415/removal.ai__tmp-642de41fe5960_zwwwqy.png"
+				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680732023/undraw_programming_re_kg9v_ttobxn.svg"
 				class="imagen-principal"
 				alt="Portrait"
 			/>
@@ -178,17 +178,18 @@
 	.imagen-principal {
 		margin-inline: auto;
 		display: grid;
-		width: 85%;
+		width: 90%;
 		aspect-ratio: 1/1;
-		object-fit: cover;
+		object-fit:contain;
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075), 0 8px 8px hsl(0deg 0% 0% / 0.075),
 			0 16px 16px hsl(0deg 0% 0% / 0.075);
 		border-radius: 3px;
 		justify-items: center;
+		background-color: #ddbc6e;
 
-		background-color: #efb229;
-		transform: scaleX(-1);
+		
+		
 	}
 
 	.card-imagen-horizontal {
