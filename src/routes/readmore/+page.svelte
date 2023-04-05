@@ -135,6 +135,9 @@
     <li>Web Development With React</li>
     <li>Introduction to Software Engineering</li>
     <li>Ideas From the History of Graphic Design</li>
+    <li>Write JavaScript For The Web</li>
+    <li>React Basics</li>
+    <li>Advanced React</li>
   </ul>
 
   <br />

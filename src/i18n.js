@@ -36,7 +36,7 @@ addMessages('en', {
 });
 addMessages('es', {
 	greet: 'Hola, soy ',
-	dev: 'Soy un Desarrollador Web de Chile',
+	dev: 'Desarrollador Web de Chile',
 	have: 'Soy apasionado por la tecnologia y siempre estoy buscando  ',
 	have2: 'aprender y mejorar',
 	have3:

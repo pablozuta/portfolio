@@ -6,7 +6,7 @@
 	<div class="grid-6" style="padding-block:2%;">
 		<div class="card">
 			<img
-				src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680729415/removal.ai__tmp-642de41fe5960_zwwwqy.png"
 				class="imagen-principal"
 				alt="Portrait"
 			/>
@@ -64,7 +64,6 @@
 	</div>
 	<!--termino card social media app-->
 
-
 	<!--inicio card art magazine-->
 	<div class="card">
 		<img
@@ -72,27 +71,22 @@
 			class="card-imagen-horizontal"
 			alt="art magazine"
 		/>
-  
+
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
 			<a href="https://art-magazine-astro.vercel.app/">
 				<button class="card-boton">LIVE</button>
 			</a>
-  
+
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
 		<br />
-		
+
 		<p class="card-portfolio-text">
 			{$_('art')}
 		</p>
 	</div>
 	<!--termino card art magazine-->
-  
-  
-
-	
-
 
 	<!--inicio card tipografia-->
 	<div class="card">
@@ -117,32 +111,30 @@
 	</div>
 	<!--termino card tipografia-->
 
-  <!--inicio card go by example-->
-  <div class="card">
-    <img
-      src="https://nextbridge.com/wp-content/uploads/2021/06/Go-Programming-Language-%E2%80%93-Making-a-Mark.jpg"
-      class="card-imagen-horizontal"
-      alt="imagen escritorio con notebook y taza de cafe"
-    />
-    <div class="container-botones-card">
-      <!--botones con links a webpage y repositorio-->
-      <a href="https://go-con-ejemplos.vercel.app/">
-        <button class="card-boton">LIVE</button>
-      </a>
+	<!--inicio card go by example-->
+	<div class="card">
+		<img
+			src="https://nextbridge.com/wp-content/uploads/2021/06/Go-Programming-Language-%E2%80%93-Making-a-Mark.jpg"
+			class="card-imagen-horizontal"
+			alt="imagen escritorio con notebook y taza de cafe"
+		/>
+		<div class="container-botones-card">
+			<!--botones con links a webpage y repositorio-->
+			<a href="https://go-con-ejemplos.vercel.app/">
+				<button class="card-boton">LIVE</button>
+			</a>
 
-      <!--termino botones con links a webpage y repositorio-->
-    </div>
-    <br />
-    
-    <p class="card-portfolio-text">
-      {$_('blog')}
-    </p>
-  </div>
-  <!-- termino card go by example-->
+			<!--termino botones con links a webpage y repositorio-->
+		</div>
+		<br />
 
+		<p class="card-portfolio-text">
+			{$_('blog')}
+		</p>
+	</div>
+	<!-- termino card go by example-->
 
-
-  <!--inicio card crypto market-->
+	<!--inicio card crypto market-->
 	<div class="card">
 		<img
 			src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -164,7 +156,6 @@
 		</p>
 	</div>
 	<!--termino card crypto market-->
-
 </div>
 
 <style>
@@ -195,7 +186,9 @@
 			0 16px 16px hsl(0deg 0% 0% / 0.075);
 		border-radius: 3px;
 		justify-items: center;
-		
+
+		background-color: #efb229;
+		transform: scaleX(-1);
 	}
 
 	.card-imagen-horizontal {
