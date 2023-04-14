@@ -1,12 +1,13 @@
 <script>
 	import { _ } from 'svelte-i18n';
+	import Form from './Form.svelte';
 </script>
 
 <main>
 	<div class="grid-6" style="padding-block:2%;">
 		<div class="card">
 			<img
-				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680732023/undraw_programming_re_kg9v_ttobxn.svg"
+				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680732023/undraw_startup_life_re_8ow9_ouzoc3.svg"
 				class="imagen-principal"
 				alt="Portrait"
 			/>
@@ -158,6 +159,8 @@
 	<!--termino card crypto market-->
 </div>
 
+<Form />
+
 <style>
 	.nombre {
 		font-size: 2rem;
@@ -180,16 +183,13 @@
 		display: grid;
 		width: 90%;
 		aspect-ratio: 1/1;
-		object-fit:contain;
+		object-fit: contain;
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075), 0 8px 8px hsl(0deg 0% 0% / 0.075),
 			0 16px 16px hsl(0deg 0% 0% / 0.075);
 		border-radius: 3px;
 		justify-items: center;
 		background-color: #ddbc6e;
-
-		
-		
 	}
 
 	.card-imagen-horizontal {

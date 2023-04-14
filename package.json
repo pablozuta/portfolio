@@ -23,6 +23,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-	  "svelte-i18n": "^3.6.0"
+		"@supabase/supabase-js": "^2.20.0",
+		"svelte-i18n": "^3.6.0",
+		"yup": "^1.1.1"
 	}
 }
