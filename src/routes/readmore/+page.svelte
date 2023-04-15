@@ -100,12 +100,13 @@
      
       </div>
     </div>
+    
 
     <div class="container-badges-group">
       <div class="container-badges-card">
         <img
-          src="https://cdn.worldvectorlogo.com/logos/python-5.svg"
-          alt="python"
+          src="https://www.svgrepo.com/show/355038/golang.svg"
+          alt="golang mascot"
           class="icon-badge"
         />
         <br>

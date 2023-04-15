@@ -1,4 +1,7 @@
 <script>
+	
+	import { _ } from 'svelte-i18n';
+
 	import { createClient } from '@supabase/supabase-js';
 	import * as yup from 'yup';
 
@@ -49,7 +52,7 @@
 					id="email"
 					name="email"
 					bind:value={email}
-					
+					placeholder="your email"
 					class="email-input"
 				/>
 			</div>
@@ -62,8 +65,8 @@
 					class="message-input"
 				/>
 			</div>
+			<center> <p>{$_('message')}</p></center>
 			<button type="submit" class="button-form">Submit</button>
-			<p>SEND A MESSAGE</p>
 		</form>
 	</div>
 	<div class="image">
@@ -94,7 +97,7 @@
 	}
 
 	.form {
-		background-color: antiquewhite;
+		
 		display: flex;
 		flex-direction: column;
 
@@ -130,13 +133,14 @@
 		border-radius: 4px;
 		font-size: 16px;
 		line-height: 1.3;
-		width: 25rem;
+		width: 25.3rem;
 		height: 10rem;
+		resize: none;
 	}
 
 	.button-form {
 		display: block;
-		margin: 0 auto;
+		margin: 0.5rem auto;
 		padding: 12px 24px;
 		border: none;
 		border-radius: 4px;
@@ -165,7 +169,7 @@
             height: 27rem;
 		}
 		.form {
-			width: 26rem;
+			width: 22rem;
 		}
 		.message-input {
 			margin-inline: 1rem;

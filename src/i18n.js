@@ -30,9 +30,10 @@ addMessages('en', {
 	svelte:
 		'Svelte Framework is a compiler that generates minimal and highly optimized JavaScript code.',
 	python:
-		'Python is a programming language used successfully in thousands of real-world business applications around the world, including many large and mission critical systems.',
+		'Go was created by Google, It has a concise syntax and features such as garbage collection, built-in concurrency. It is known for its fast compile times and cross-platform compatibility.',
 	astro:
-		'Astro represent a paradigm shift for frontend web architecture. Astro extracts your UI into smaller components on the page. Unused JavaScript is replaced with lightweight HTML.'
+		'Astro represent a paradigm shift for frontend web architecture. Astro extracts your UI into smaller components on the page. Unused JavaScript is replaced with lightweight HTML.',
+	message: 'SEND ME A MESSAGE',
 });
 addMessages('es', {
 	greet: 'Hola, soy ',
@@ -64,7 +65,8 @@ addMessages('es', {
 	svelte:
 		'Svelte es un framework que compila codigo Javascript de una manera minimalista y altamente optimizada.',
 	python:
-		'Python es un lenguaje de programacion usado exitosamente en miles de proyectos desde aplicaciones de negocios hasta data science y machine learning.',
+		'Go fue creado por Google, tiene una sintaxis concisa, garbage collection y concurrencia incorporadas. Es conocido por sus tiempos de compilación rápidos y compatibilidad multiplataforma.',
 	astro:
-		'Astro representa un cambio de paradigma en la arquitectura del front-end. Astro extrae UI en pequeños componentes y el JavaScript no usado es reemplazado por HTML.'
+		'Astro representa un cambio de paradigma en la arquitectura del front-end. Astro extrae UI en pequeños componentes y el JavaScript no usado es reemplazado por HTML.',
+	message: 'ENVIAME UN MENSAJE',
 });
