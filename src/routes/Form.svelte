@@ -1,5 +1,4 @@
 <script>
-	
 	import { _ } from 'svelte-i18n';
 
 	import { createClient } from '@supabase/supabase-js';
@@ -57,13 +56,7 @@
 				/>
 			</div>
 			<div>
-				<textarea
-					id="message"
-					name="message"
-					bind:value={message}
-					
-					class="message-input"
-				/>
+				<textarea id="message" name="message" bind:value={message} class="message-input" />
 			</div>
 			<center> <p>{$_('message')}</p></center>
 			<button type="submit" class="button-form">Submit</button>
@@ -97,10 +90,10 @@
 	}
 
 	.form {
-		
 		display: flex;
 		flex-direction: column;
-
+		border: 2px solid #c4a660;
+		border-radius: 10px;
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
@@ -108,8 +101,6 @@
 		height: 22rem;
 		margin: 0 auto;
 		padding: 1rem;
-
-		box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 	}
 
 	.email-input {
@@ -165,8 +156,7 @@
 			flex-direction: column;
 		}
 		img {
-			width: 18rem;
-            height: 27rem;
+			display: none;
 		}
 		.form {
 			width: 22rem;
@@ -176,8 +166,8 @@
 			width: 18rem;
 			height: 10rem;
 		}
-        .email-input {
-            width: 17rem;
-	}
+		.email-input {
+			width: 17rem;
+		}
 	}
 </style>
