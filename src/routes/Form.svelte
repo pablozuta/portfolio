@@ -58,7 +58,7 @@
 			<div>
 				<textarea id="message" name="message" bind:value={message} class="message-input" />
 			</div>
-			<center> <p>{$_('message')}</p></center>
+			<center> <p>{$_('message')} 📩</p></center>
 			<button type="submit" class="button-form">Submit</button>
 		</form>
 	</div>
@@ -77,6 +77,7 @@
 		justify-content: space-evenly;
 		align-items: center;
 		max-width: 1200px;
+		gap: 1rem;
 	}
 
 	img {
@@ -85,7 +86,6 @@
 		max-width: 24rem;
 		aspect-ratio: 1/1;
 		object-fit: contain;
-
 		justify-items: center;
 	}
 
@@ -151,6 +151,9 @@
 		outline: none;
 		box-shadow: 0 0 0 2px rgba(47, 52, 58, 0.5);
 	}
+
+	/* MEDIA QUERY MEDIUM DEVICES */
+
 	@media (max-width: 900px) {
 		section {
 			flex-direction: column;
@@ -158,6 +161,21 @@
 		img {
 			display: none;
 		}
+		.form {
+			width: 28rem;
+		}
+		.message-input {
+			margin-inline: 1rem;
+			width: 24rem;
+			height: 10rem;
+		}
+		.email-input {
+			width: 23rem;
+		}
+	}
+	/* MEDIA QUERY SMALL DEVICES */
+	@media (max-width: 530px) {
+		
 		.form {
 			width: 22rem;
 		}

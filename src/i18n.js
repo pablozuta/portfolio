@@ -34,6 +34,7 @@ addMessages('en', {
 	astro:
 		'Astro represent a paradigm shift for frontend web architecture. Astro extracts your UI into smaller components on the page. Unused JavaScript is replaced with lightweight HTML.',
 	message: 'SEND ME A MESSAGE',
+	moreAboutMe: 'MORE ABOUT ME',
 });
 addMessages('es', {
 	greet: 'Hola, soy ',
@@ -69,4 +70,6 @@ addMessages('es', {
 	astro:
 		'Astro representa un cambio de paradigma en la arquitectura del front-end. Astro extrae UI en pequeños componentes y el JavaScript no usado es reemplazado por HTML.',
 	message: 'ENVIAME UN MENSAJE',
+	moreAboutMe: 'MAS SOBRE MI',
+	
 });
