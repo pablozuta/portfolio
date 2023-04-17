@@ -93,7 +93,6 @@
 		justify-content: center;
 		align-items: center;
 		background-color: #efb229;
-		height: 3rem;
 		letter-spacing: 0.2rem;
 	}
 	.link-footer {
