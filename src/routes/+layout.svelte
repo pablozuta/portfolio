@@ -33,7 +33,7 @@
 <slot />
 
 <footer>
-	<p>Sitio Web Hecho con <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a></p>
+	<p>Sitio Web Hecho con <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a>Copyright© 2023</p>
 </footer>
 
 <style>
