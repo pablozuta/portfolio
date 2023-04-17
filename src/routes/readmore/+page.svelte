@@ -3,7 +3,7 @@
 </script>
 
 <div class="readme">
-	<h3>💻 TECH STACK</h3>
+	<h3>TECH STACK</h3>
 	<div class="container-badges">
 		<div class="container-badges-group">
 			<div class="container-badges-card">
@@ -85,7 +85,7 @@
 	<br />
 	<br />
 	<!-- BIO -->
-	<h3>✋ {$_('moreAboutMe')}</h3>
+	<h3>{$_('moreAboutMe')} ✋</h3>
 	<p>
 		{$_('j1')}
 	</p>
@@ -98,7 +98,7 @@
 		{$_('f1')}
 	</p>
 
-	<h3>📚 {$_('courses')}</h3>
+	<h3>{$_('courses')}</h3>
 	<ul>
 		<li>CS50 Web Programming With Python and Javascript</li>
 		<li>Introduction to Typography</li>

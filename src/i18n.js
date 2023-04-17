@@ -17,8 +17,9 @@ addMessages('en', {
 	blog: 'Go by Example website recreation using NextJS, Typescript and MDX.',
 	journey: 'THE JOURNEY',
 	j1: 'As a self-taught web developer, I have experienced both the rewards and challenges of learning this field on my own. It has required a lot of dedication and motivation to learn the various technologies and concepts, and there have been times when I have felt frustrated or overwhelmed.',
-	j3: "I found it helpful to set small, achievable goals and practice my skills by building projects and websites. This gave me a sense of what it's like to work on a real-world project and also allowed me to show my work to potential employers or clients. Also connecting with other developers and joining online communities to get support, encouragement and ideas was helpful in building my skills.",
-	f1: ' Now I am willing to try new things and take on new challenges , I am excited to see where my learning journey will take me next.',
+	j3: "I found it helpful to set small, achievable goals and practice my skills by building projects and websites. This gave me a sense of what it's like to work on a real-world project and also allowed me to show my work to potential employers or clients. Connecting with other developers and joining online communities to get support, encouragement, and ideas was also helpful in building my skills.",
+
+	f1: 'Now I am willing to try new things and take on new challenges. I am excited to see where my learning journey will take me next.',
 	courses: 'COURSES',
 	html: 'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.',
 	css: 'Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.',

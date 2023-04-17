@@ -15,7 +15,7 @@
 
 		<div class="card">
 			<h3 class="nombre">{$_('greet')}<span>Pablo</span></h3>
-			<h4 class="based">{$_('dev')}</h4>
+			<h4 class="based">{$_('dev')} 💻 </h4>
 
 			<p style="line-height: 1.8rem;">
 				{$_('have')} <strong>{$_('have2')}</strong>
