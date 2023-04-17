@@ -33,7 +33,8 @@
 <slot />
 
 <footer>
-	<p>Sitio Web Hecho con <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a>Copyright© 2023</p>
+	<p>Sitio Web Hecho con <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a></p>
+	<p>Copyright© 2023</p>
 </footer>
 
 <style>
@@ -101,5 +102,11 @@
 	}
 	.link-footer:hover {
 		color: black;
+	}
+	@media (max-width: 900px) {
+		footer{
+			flex-direction: column;
+			letter-spacing: 0rem;
+		}
 	}
 </style>
