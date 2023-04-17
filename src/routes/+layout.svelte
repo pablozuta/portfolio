@@ -94,6 +94,7 @@
 		align-items: center;
 		background-color: #efb229;
 		letter-spacing: 0.2rem;
+		gap: 0.3rem;
 	}
 	.link-footer {
 		text-decoration: none;
