@@ -1,6 +1,7 @@
 <script>
 	// se importa el archivo con los textos de idiomas ingles y español
 	import './../i18n';
+
 	// se importan las utilidades que se usaran de la libreria svelte-i18n
 	import { _, addMessages, init } from 'svelte-i18n';
 
@@ -17,7 +18,7 @@
 
 <header>
 	<nav class="barra-navegacion">
-		<a class="nombre" href="/"><h3>pablozuta</h3></a>
+		<a class="nombre" href="/"><h3>Portfolio</h3></a>
 
 		<div class="icons">
 			<button on:click={cambioLenguajeEspañol} class="boton">ES</button>
@@ -33,7 +34,7 @@
 <slot />
 
 <footer>
-	<p>Sitio Web Hecho con <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a></p>
+	<p>{$_('footerText')} <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a></p>
 	<p>Copyright© 2023</p>
 </footer>
 

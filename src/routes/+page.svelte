@@ -89,6 +89,30 @@
 	</div>
 	<!--termino card art magazine-->
 
+	
+	<!--inicio card crypto market-->
+	<div class="card">
+		<img
+			src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+			class="card-imagen-horizontal"
+			alt="imagen de bitcoin"
+		/>
+		<div class="container-botones-card">
+			<!--botones con links a webpage y repositorio-->
+			<a href="https://coin-market-chi.vercel.app/">
+				<button class="card-boton">LIVE</button>
+			</a>
+
+			<!--termino botones con links a webpage y repositorio-->
+		</div>
+		<br />
+
+		<p class="card-portfolio-text">
+			{$_('crypto')}
+		</p>
+	</div>
+	<!--termino card crypto market-->	
+
 	<!--inicio card tipografia-->
 	<div class="card">
 		<img
@@ -135,28 +159,6 @@
 	</div>
 	<!-- termino card go by example-->
 
-	<!--inicio card crypto market-->
-	<div class="card">
-		<img
-			src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-			class="card-imagen-horizontal"
-			alt="imagen de bitcoin"
-		/>
-		<div class="container-botones-card">
-			<!--botones con links a webpage y repositorio-->
-			<a href="https://coin-market-chi.vercel.app/">
-				<button class="card-boton">LIVE</button>
-			</a>
-
-			<!--termino botones con links a webpage y repositorio-->
-		</div>
-		<br />
-
-		<p class="card-portfolio-text">
-			{$_('crypto')}
-		</p>
-	</div>
-	<!--termino card crypto market-->
 </div>
 
 <Form />
