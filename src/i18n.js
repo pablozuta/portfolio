@@ -12,7 +12,7 @@ addMessages('en', {
 		'Front-End Desing of Modern Social media App using React and Material UI.',
 	art: 'Art Magazine Website build with the Astro framework.',
 	crypto:
-		'Crypto Seach page using Svelte to connect to the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.',
+		'Crypto Seach page using Svelte, Bootstrap and the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.',
 	typo: 'Typography page using materials from the CalArts course "introduction to typography" , made with Svelte.',
 	blog: 'Go by Example website recreation using NextJS, Typescript and MDX.',
 	journey: 'THE JOURNEY',
@@ -50,7 +50,7 @@ addMessages('es', {
 		'Diseño Front-End para aplicacion Red Social moderna creada con React y Material UI.',
 	art: 'Sitio web Revista de Arte construido con el framework Astro.',
 	crypto:
-		'Buscador de valores crypto usando Svelte para conectarse a la API Gecko y mostrar diferentes tipos de valores de cryptomonedas como Bitcoin y Ethereum.',
+		'Buscador de valores crypto usando Svelte, Bootstrap y la API Gecko para mostrar diferentes tipos de valores de cryptomonedas como Bitcoin y Ethereum.',
 	typo: 'Website sobre Tipografia que usa materiales del curso "Introduction to Typography". Creado con el framework Svelte.',
 	blog: 'Recreacion de pagina Go by Example usando NextJS, Typescript y MDX.',
 	journey: 'EL CAMINO',
