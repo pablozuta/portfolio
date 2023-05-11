@@ -7,14 +7,22 @@
 	<div class="container-badges">
 		<div class="container-badges-group">
 			<div class="container-badges-card">
-				<img src="https://www.svgrepo.com/show/120930/html.svg" alt="html5" class="icon-badge" />
+				<img
+					src="https://www.svgrepo.com/show/120930/html.svg"
+					alt="html5 svg icon"
+					class="icon-badge"
+				/>
 				<br />
 				<br />
 				<p>{$_('html')}</p>
 			</div>
 
 			<div class="container-badges-card">
-				<img src="https://www.svgrepo.com/show/185568/file-css.svg" alt="css3" class="icon-badge" />
+				<img
+					src="https://www.svgrepo.com/show/185568/file-css.svg"
+					alt="css3 svg icon"
+					class="icon-badge"
+				/>
 				<br />
 				<br />
 				<p>{$_('css')}</p>
@@ -25,7 +33,7 @@
 			<div class="container-badges-card">
 				<img
 					src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-					alt="javascript"
+					alt="javascript svg icon"
 					class="icon-badge"
 				/>
 				<br />
@@ -34,7 +42,11 @@
 			</div>
 
 			<div class="container-badges-card">
-				<img src="https://www.svgrepo.com/show/374304/git.svg" alt="git" class="icon-badge" />
+				<img
+					src="https://www.svgrepo.com/show/374304/git.svg"
+					alt="git svg icon"
+					class="icon-badge"
+				/>
 				<br />
 				<br />
 				<p>{$_('git')}</p>
@@ -43,14 +55,22 @@
 
 		<div class="container-badges-group">
 			<div class="container-badges-card">
-				<img src="https://www.svgrepo.com/show/354259/react.svg" alt="react" class="icon-badge" />
+				<img
+					src="https://www.svgrepo.com/show/354259/react.svg"
+					alt="react svg icon"
+					class="icon-badge"
+				/>
 				<br />
 				<br />
 				<p>{$_('react')}</p>
 			</div>
 
 			<div class="container-badges-card">
-				<img src="https://www.svgrepo.com/show/374109/svelte.svg" alt="svelte" class="icon-badge" />
+				<img
+					src="https://www.svgrepo.com/show/374109/svelte.svg"
+					alt="svelte svg icon"
+					class="icon-badge"
+				/>
 				<br />
 				<br />
 				<p>{$_('svelte')}</p>
@@ -61,7 +81,7 @@
 			<div class="container-badges-card">
 				<img
 					src="https://www.svgrepo.com/show/355038/golang.svg"
-					alt="golang mascot"
+					alt="golang mascot svg icon"
 					class="icon-badge"
 				/>
 				<br />
@@ -71,7 +91,7 @@
 			<div class="container-badges-card">
 				<img
 					src="https://www.svgrepo.com/show/373446/astro.svg"
-					alt="astro logo"
+					alt="astro svg icon"
 					class="icon-badge"
 				/>
 				<br />
@@ -121,15 +141,15 @@
 		border-bottom: 3px solid #efb229;
 	}
 	ul {
-    margin: 0;
-    padding: 0;
+		margin: 0;
+		padding: 0;
 		font-size: 1.1rem;
-		list-style:none;
+		list-style: none;
 	}
 	li {
-		padding:0.5rem 1rem;
-    margin: 0.5rem;
-    border-bottom: #efb229 1px solid;
+		padding: 0.5rem 1rem;
+		margin: 0.5rem;
+		border-bottom: #efb229 1px solid;
 	}
 	p {
 		font-size: 1.1rem;
@@ -137,11 +157,13 @@
 		margin-bottom: 2.5rem;
 	}
 	.readme {
+		align-items: center;
 		margin-inline: 18rem;
 		text-align: left;
+		max-width: 1120px;
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1120px) {
 		.readme {
 			margin-inline: 0.5rem;
 		}
@@ -165,7 +187,7 @@
 		gap: 2rem;
 		text-align: center;
 	}
-	@media (max-width: 900px) {
+	@media (max-width: 1120px) {
 		.container-badges-group {
 			margin-inline: -0.5rem;
 			flex-direction: column;
@@ -180,8 +202,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: fit-content;
-		height: 300px;
+		width: 40rem;
+		min-height: 300px;
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075);
 	}

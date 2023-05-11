@@ -4,7 +4,7 @@
 </script>
 
 <main>
-	<div class="grid-6" style="padding-block:2%;">
+	<header class="grid-6" style="padding-block:2%;">
 		<div class="card">
 			<img
 				src="https://res.cloudinary.com/ddkgbgwvp/image/upload/v1680732023/undraw_startup_life_re_8ow9_ouzoc3.svg"
@@ -21,9 +21,9 @@
 				{$_('have')} <strong>{$_('have2')}</strong>
 				{$_('have3')}
 			</p>
-			<a href="/readmore"><button class="boton">{$_('readMore')}</button></a>
+			<a href="/readmore" class="boton">{$_('readMore')}</a>
 		</div>
-	</div>
+	</header>
 </main>
 <br />
 <br />
@@ -31,8 +31,7 @@
 <!-- aca termina el card main-->
 
 <!-- aca empieza el grid portfolio-->
-
-<div class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
+<section class="grid-6" style="background-color:#efb229 ; padding-inline: 2%;">
 	<div class="container-project-text">
 		<h2 class="portfolio">PROJECTS</h2>
 		<h2 class="portfolio">PROJECTS</h2>
@@ -50,8 +49,8 @@
 		/>
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://social-eight-alpha.vercel.app/">
-				<button class="card-boton">LIVE</button>
+			<a href="https://social-eight-alpha.vercel.app/" class="card-boton">
+				LIVE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -75,8 +74,8 @@
 
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://art-magazine-astro.vercel.app/">
-				<button class="card-boton">LIVE</button>
+			<a href="https://art-magazine-astro.vercel.app/" class="card-boton">
+				LIVE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -99,8 +98,8 @@
 		/>
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://coin-market-chi.vercel.app/">
-				<button class="card-boton">LIVE</button>
+			<a href="https://coin-market-chi.vercel.app/" class="card-boton">
+				LIVE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -122,8 +121,8 @@
 		/>
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://typography-svelte.vercel.app/">
-				<button class="card-boton">LIVE</button>
+			<a href="https://typography-svelte.vercel.app/" class="card-boton">
+				LIVE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -145,8 +144,8 @@
 		/>
 		<div class="container-botones-card">
 			<!--botones con links a webpage y repositorio-->
-			<a href="https://go-con-ejemplos.vercel.app/">
-				<button class="card-boton">LIVE</button>
+			<a href="https://go-con-ejemplos.vercel.app/" class="card-boton">
+				LIVE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -159,11 +158,12 @@
 	</div>
 	<!-- termino card go by example-->
 
-</div>
+</section>
 
 <Form />
 
 <style>
+	
 	.nombre {
 		font-size: 2rem;
 	}
@@ -173,6 +173,7 @@
 	}
 
 	.grid-6 {
+		max-width: 1920px;
 		margin-top: 1rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
@@ -245,7 +246,7 @@
 	.portfolio {
 		margin-block: -0.1rem;
 		font-size: 2.9rem;
-		letter-spacing: 1.5rem;
+		letter-spacing: 1.1rem;
 		color: #fc5d41;
 		font-weight: 900;
 		line-height: 4.1rem;
