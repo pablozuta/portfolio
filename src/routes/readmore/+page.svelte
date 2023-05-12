@@ -204,7 +204,7 @@
 	
 	@media (max-width: 1120px) {
 		.container-badges-group {
-			margin-inline: auto;
+			margin-inline: 0.5rem;
 			flex-direction: column;
 		}
 		.container-badges-card {
