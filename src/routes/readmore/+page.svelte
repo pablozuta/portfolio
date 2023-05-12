@@ -196,6 +196,7 @@
 			0 4px 4px hsl(0deg 0% 0% / 0.075);
 	}
 
+	/* MEDIA QUERIES */
 	@media (max-width: 1120px) {
 		.container-badges-group {
 			flex-direction: column;
@@ -214,12 +215,15 @@
 		}
 	}
 	@media (max-width: 800px) {
-		.container-badges-card {
-			width: 18rem;
-			margin-inline: 0.5rem;
-		}
 		.readme {
 			margin-inline: 0.5rem;
+		}
+		.container-badges-group {
+			margin-inline: 0.5rem;
+		}
+
+		.container-badges-card {
+			width: 18rem;
 		}
 	}
 </style>
