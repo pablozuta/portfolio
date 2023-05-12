@@ -187,12 +187,6 @@
 		gap: 2rem;
 		text-align: center;
 	}
-	@media (max-width: 1120px) {
-		.container-badges-group {
-			margin-inline: -0.5rem;
-			flex-direction: column;
-		}
-	}
 	.container-badges-card {
 		background-color: #f1e1c3;
 		/* border: 2px solid #A19D8F;  */
@@ -206,5 +200,26 @@
 		min-height: 300px;
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075);
+	}
+	
+	@media (max-width: 1120px) {
+		.container-badges-group {
+			margin-inline: auto;
+			flex-direction: column;
+		}
+		.container-badges-card {
+			width: 30rem;
+			margin-inline: auto;
+		}
+	}
+	@media (max-width: 900px) {
+		.container-badges-card {
+			width: 25rem;
+		}
+	}
+	@media (max-width: 800px) {
+		.container-badges-card {
+			width: 18rem;
+		}
 	}
 </style>
