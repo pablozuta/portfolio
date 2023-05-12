@@ -204,8 +204,8 @@
 			width: 30rem;
 			margin-inline: auto;
 		}
-			.readme {
-				margin-inline: 8rem;
+		.readme {
+			margin-inline: 8rem;
 		}
 	}
 	@media (max-width: 900px) {
@@ -216,10 +216,10 @@
 	@media (max-width: 800px) {
 		.container-badges-card {
 			width: 18rem;
-			
+			margin-inline: 0.5rem;
 		}
 		.readme {
-				margin-inline: 0.5rem;
+			margin-inline: 0.5rem;
 		}
 	}
 </style>
