@@ -204,12 +204,12 @@
 	
 	@media (max-width: 1120px) {
 		.container-badges-group {
-			margin-inline: 0.5rem;
+			
 			flex-direction: column;
 		}
 		.container-badges-card {
 			width: 30rem;
-			margin-inline: auto;
+			
 		}
 	}
 	@media (max-width: 900px) {
