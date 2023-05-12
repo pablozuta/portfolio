@@ -163,12 +163,6 @@
 		max-width: 1120px;
 	}
 
-	@media (max-width: 1120px) {
-		.readme {
-			margin-inline: 0.5rem;
-		}
-	}
-
 	.icon-badge {
 		width: 100px;
 		align-items: center;
@@ -201,15 +195,17 @@
 		box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075), 0 2px 2px hsl(0deg 0% 0% / 0.075),
 			0 4px 4px hsl(0deg 0% 0% / 0.075);
 	}
-	
+
 	@media (max-width: 1120px) {
 		.container-badges-group {
-			
 			flex-direction: column;
 		}
 		.container-badges-card {
 			width: 30rem;
-			
+			margin-inline: auto;
+		}
+			.readme {
+				margin-inline: 8rem;
 		}
 	}
 	@media (max-width: 900px) {
@@ -220,6 +216,10 @@
 	@media (max-width: 800px) {
 		.container-badges-card {
 			width: 18rem;
+			
+		}
+		.readme {
+				margin-inline: 0.5rem;
 		}
 	}
 </style>
