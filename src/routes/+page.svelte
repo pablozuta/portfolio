@@ -173,7 +173,8 @@
 	}
 
 	.grid-6 {
-		max-width: 1920px;
+		max-width: 1320px;
+		margin-inline: auto;
 		margin-top: 1rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));

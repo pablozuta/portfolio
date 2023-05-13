@@ -35,7 +35,7 @@
 
 <footer>
 	<p>{$_('footerText')} <a class="link-footer" href="https://kit.svelte.dev/"> SvelteKit</a></p>
-	<p>Copyright© 2023</p>
+	<p class="copy">Copyright© 2023</p>
 </footer>
 
 <style>
@@ -104,10 +104,14 @@
 	.link-footer:hover {
 		color: black;
 	}
-	@media (max-width: 900px) {
-		footer{
+	@media (max-width: 700px) {
+		footer{			
 			flex-direction: column;
 			letter-spacing: 0rem;
+			
+		}
+		.copy {
+			margin-top: -1rem;
 		}
 	}
 </style>

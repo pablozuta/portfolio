@@ -136,6 +136,12 @@
 </div>
 
 <style>
+	.readme {
+		align-items: center;
+		margin-inline: 18rem;
+		text-align: left;
+		max-width: 1120px;
+	}
 	h3 {
 		font-size: 2rem;
 		border-bottom: 3px solid #efb229;
@@ -155,12 +161,6 @@
 		font-size: 1.1rem;
 		margin-top: -1.3rem;
 		margin-bottom: 2.5rem;
-	}
-	.readme {
-		align-items: center;
-		margin-inline: 18rem;
-		text-align: left;
-		max-width: 1120px;
 	}
 
 	.icon-badge {
@@ -219,7 +219,7 @@
 			margin-inline: 0.5rem;
 		}
 		.container-badges-group {
-			margin-inline: 0.5rem;
+			margin-inline:-3.5rem;
 		}
 
 		.container-badges-card {

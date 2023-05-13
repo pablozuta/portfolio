@@ -72,6 +72,8 @@
 
 <style>
 	section {
+		
+		margin-inline: auto;
 		display: flex;
 		margin-block: 2rem;
 		justify-content: space-evenly;
