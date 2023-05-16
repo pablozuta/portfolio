@@ -52,6 +52,9 @@
 			<a href="https://social-eight-alpha.vercel.app/" class="card-boton">
 				LIVE
 			</a>
+			<a href="https://github.com/pablozuta/social" class="card-boton">
+				CODE
+			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
@@ -77,6 +80,9 @@
 			<a href="https://art-magazine-astro.vercel.app/" class="card-boton">
 				LIVE
 			</a>
+			<a href="https://github.com/pablozuta/art-magazine-astro" class="card-boton">
+				CODE
+			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
@@ -101,6 +107,9 @@
 			<a href="https://coin-market-chi.vercel.app/" class="card-boton">
 				LIVE
 			</a>
+			<a href="https://github.com/pablozuta/coin-market" class="card-boton">
+				CODE
+			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
@@ -123,6 +132,9 @@
 			<!--botones con links a webpage y repositorio-->
 			<a href="https://typography-svelte.vercel.app/" class="card-boton">
 				LIVE
+			</a>
+			<a href="https://github.com/pablozuta/typography-svelte" class="card-boton">
+				CODE
 			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
@@ -147,6 +159,9 @@
 			<a href="https://go-con-ejemplos.vercel.app/" class="card-boton">
 				LIVE
 			</a>
+			<a href="https://github.com/pablozuta/go-con-ejemplos" class="card-boton">
+				CODE
+			</a>
 
 			<!--termino botones con links a webpage y repositorio-->
 		</div>
@@ -159,6 +174,8 @@
 	<!-- termino card go by example-->
 
 </section>
+<br>
+<br>
 
 <Form />
 
