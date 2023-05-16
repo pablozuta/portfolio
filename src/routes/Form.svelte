@@ -1,6 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n';
-
+    	
 	import { createClient } from '@supabase/supabase-js';
 	import * as yup from 'yup';
 
@@ -12,7 +12,8 @@
 		email: yup.string().email().required(),
 		message: yup.string().required()
 	});
-
+    
+	
 	let email = '';
 	let message = '';
 
@@ -25,7 +26,7 @@
 			email = '';
 			message = '';
 		}
-		alert('mensaje enviado exitosamente.');
+		alert('✔️✔️MENSAJE ENVIADO EXITOSAMENTE.');
 	}
 
 	function handleSubmit(event) {
