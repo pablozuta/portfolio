@@ -2,8 +2,7 @@
 
 Table of Contents
 
-[Features](#features)
-[Technologies Used](#technologies-used)
+[Features](#features) | [Technologies Used](#technologies-used)
 
 ## Features
 - Portfolio page showcasing personal projects and key skills
