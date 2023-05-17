@@ -13,12 +13,8 @@
 
 ## Technologies Used
 - [SvelteKit](https://kit.svelte.dev/) 
-
 - [Svelte-i18n](https://github.com/kaisermann/svelte-i18n)
-
 - [Supabase](https://supabase.com/) 
-
 - [Yup](https://github.com/jquense/yup)
-
 - [Vercel](https://vercel.com/)
 
