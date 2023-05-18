@@ -1,6 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n';
-    	
+
 	import { createClient } from '@supabase/supabase-js';
 	import * as yup from 'yup';
 
@@ -12,8 +12,8 @@
 		email: yup.string().email().required(),
 		message: yup.string().required()
 	});
-    
-	
+
+	let successMessage = '';
 	let email = '';
 	let message = '';
 
@@ -26,7 +26,8 @@
 			email = '';
 			message = '';
 		}
-		alert('✔️✔️MENSAJE ENVIADO EXITOSAMENTE.');
+		
+		successMessage = 'Message sent successfully! ✔️✔️';
 	}
 
 	function handleSubmit(event) {
@@ -59,7 +60,11 @@
 			<div>
 				<textarea id="message" name="message" bind:value={message} class="message-input" />
 			</div>
-			<center> <p>{$_('message')} 📩</p></center>
+			{#if successMessage}
+				<center> <p>{$_('messageSubmited')}</p></center>
+			{:else}
+				<center> <p>{$_('message')} 📩</p></center>
+			{/if}
 			<button type="submit" class="button-form">Submit</button>
 		</form>
 	</div>
@@ -73,7 +78,6 @@
 
 <style>
 	section {
-		
 		margin-inline: auto;
 		display: flex;
 		margin-block: 2rem;
@@ -178,7 +182,6 @@
 	}
 	/* MEDIA QUERY SMALL DEVICES */
 	@media (max-width: 530px) {
-		
 		.form {
 			width: 22rem;
 		}

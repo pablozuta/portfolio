@@ -18,7 +18,7 @@
 
 <header>
 	<nav class="barra-navegacion">
-		<a class="nombre" href="/"><h3>Portfolio</h3></a>
+		<a class="nombre" href="/"><h3>./Portfolio</h3></a>
 
 		<div class="icons">
 			<button on:click={cambioLenguajeEspañol} class="boton">ES</button>
@@ -99,7 +99,7 @@
 	}
 	.link-footer {
 		text-decoration: none;
-		color: bisque;
+		color: rgb(241, 236, 231);
 	}
 	.link-footer:hover {
 		color: black;
