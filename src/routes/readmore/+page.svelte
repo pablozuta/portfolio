@@ -117,18 +117,17 @@
 	<p>
 		{$_('f1')}
 	</p>
-
-	<h3>{$_('courses')}</h3>
-	<ul>
-		<li>CS50 Web Programming With Python and Javascript</li>
-		<li>Introduction to Typography</li>
-		<li>Web Development With React</li>
-		<li>Introduction to Software Engineering</li>
-		<li>Ideas From the History of Graphic Design</li>
-		<li>Write JavaScript For The Web</li>
-		<li>React Basics</li>
-		<li>Advanced React</li>
-	</ul>
+	<section>
+		<h3>{$_('courses')}</h3>
+		<ul>
+			<li>CS50 Web Programming With Python and Javascript</li>
+			<li>Introduction to Typography</li>
+			<li>Web Development With React</li>
+			<li>Introduction to Software Engineering</li>
+			<li>Ideas From the History of Graphic Design</li>
+			<li>Write JavaScript For The Web</li>
+		</ul>
+	</section>
 
 	<br />
 	<br />
@@ -146,17 +145,7 @@
 		font-size: 2rem;
 		border-bottom: 3px solid #efb229;
 	}
-	ul {
-		margin: 0;
-		padding: 0;
-		font-size: 1.1rem;
-		list-style: none;
-	}
-	li {
-		padding: 0.5rem 1rem;
-		margin: 0.5rem;
-		border-bottom: #efb229 1px solid;
-	}
+
 	p {
 		font-size: 1.1rem;
 		margin-top: -1.3rem;
@@ -196,6 +185,25 @@
 			0 4px 4px hsl(0deg 0% 0% / 0.075);
 	}
 
+	/* CURSOS LISTA */
+	ul {
+		margin: 0;
+		padding: 0;
+		font-size: 1.1rem;
+		list-style: none;
+	}
+	li {
+		padding: 0.5rem 1rem;
+		margin: 0.5rem;
+		border-bottom: #efb229 1px solid;
+		border-radius: 8px;
+		transition: all 1s;
+	}
+	li:hover {
+		background-color: #efb229;
+	}
+	/* FIN CURSOS LISTA */
+
 	/* MEDIA QUERIES */
 	@media (max-width: 1120px) {
 		.container-badges-group {
@@ -219,7 +227,7 @@
 			margin-inline: 0.5rem;
 		}
 		.container-badges-group {
-			margin-inline:-3.5rem;
+			margin-inline: -3.5rem;
 		}
 
 		.container-badges-card {

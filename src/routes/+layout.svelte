@@ -25,8 +25,7 @@
 			<button on:click={cambioLenguajeIngles} class="boton">EN</button>
 			<!--icono link a github-->
 			<a href="https://github.com/pablozuta">
-				<img src="https://www.svgrepo.com/show/353136/github.svg" alt="icono github svg" /></a
-			>
+				<img  class="github-icon" src="https://www.svgrepo.com/show/353136/github.svg" alt="icono github svg" /></a>
 		</div>
 	</nav>
 </header>
@@ -56,7 +55,8 @@
 		justify-content: center;
 	}
 
-	.icons > a > img {
+	.github-icon {
+		margin-top: 0.2rem;
 		width: 22px;
 		margin-left: 2rem;
 	}
@@ -105,10 +105,9 @@
 		color: black;
 	}
 	@media (max-width: 700px) {
-		footer{			
+		footer {
 			flex-direction: column;
 			letter-spacing: 0rem;
-			
 		}
 		.copy {
 			margin-top: -1rem;
