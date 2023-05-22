@@ -3,6 +3,7 @@
 </script>
 
 <div class="readme">
+    
 	<h3>TECH STACK</h3>
 	<div class="container-badges">
 		<div class="container-badges-group">
@@ -120,12 +121,13 @@
 	<section>
 		<h3>{$_('courses')}</h3>
 		<ul>
-			<li>CS50 Web Programming With Python and Javascript</li>
-			<li>Introduction to Typography</li>
-			<li>Web Development With React</li>
 			<li>Introduction to Software Engineering</li>
-			<li>Ideas From the History of Graphic Design</li>
+			<li>CS50 Web Programming With Python and Javascript</li>
 			<li>Write JavaScript For The Web</li>
+			<li>Web Development With React</li>
+			<li>Make Your Web Content Accesible</li>
+			<li>Ideas From the History of Graphic Design</li>
+			<li>Introduction to Typography</li>
 		</ul>
 	</section>
 
