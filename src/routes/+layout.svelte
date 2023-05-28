@@ -5,8 +5,8 @@
 	// se importan las utilidades que se usaran de la libreria svelte-i18n
 	import { _, addMessages, init } from 'svelte-i18n';
 
-	// se configura el lenguaje default (español)
-	init({ initialLocale: 'es' });
+	// se configura el lenguaje default (ingles)
+	init({ initialLocale: 'en' });
 
 	function cambioLenguajeEspañol() {
 		init({ initialLocale: 'es' });
