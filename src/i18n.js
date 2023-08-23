@@ -57,8 +57,8 @@ addMessages('es', {
 	j3: 'Algo que fue beneficioso fue ponerme metas que fueran pequeñas y a mi alcance, y practicar mis habilidades construyendo proyectos y sitios web. Esto me dio un sentido de cómo es la dinámica de trabajo en un proyecto del mundo real y, a la vez, me permite mostrar mi trabajo a potenciales clientes y empleadores. También, conectar con otros desarrolladores y unirme a comunidades en línea que brindan soporte, ideas y enseñanzas ha sido beneficioso para seguir mejorando mis capacidades.',
 	f1: 'En este momento, estoy ansioso por probar cosas nuevas y aceptar nuevos desafíos. Estoy expectante por ver hacia dónde me llevará mi camino de aprendizaje en el tiempo que viene.',
 	courses: 'CURSOS',
-	html: 'El HyperText Markup Language o HTML es el lenguaje de marcado standard para documentos diseñados para ser mostrados en un navegador web.',
-	css: 'CSS (Cascading Style Sheets) es el lenguaje usado para describir la presentacion de un documento escrito en HTML o XML.',
+	html: 'El HyperText Markup Language o HTML es el lenguaje de marcado estándar para documentos diseñados para ser mostrados en un navegador web.',
+	css: 'CSS (Cascading Style Sheets) es el lenguaje usado para describir la presentación de un documento escrito en HTML o XML.',
 	javascript:
 		'Javascript, es un lenguaje de programacion que forma las tecnologias bases de la World Wide Web junto con HTML y CSS.',
 	git: 'Git es un sistema distribuido de control de versiones diseñado para procesar desde pequeños hasta enormes proyectos con velocidad y eficiencia.',
