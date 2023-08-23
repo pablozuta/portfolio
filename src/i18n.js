@@ -60,12 +60,12 @@ addMessages('es', {
 	html: 'El HyperText Markup Language o HTML es el lenguaje de marcado estándar para documentos diseñados para ser mostrados en un navegador web.',
 	css: 'CSS (Cascading Style Sheets) es el lenguaje usado para describir la presentación de un documento escrito en HTML o XML.',
 	javascript:
-		'Javascript, es un lenguaje de programacion que forma las tecnologias bases de la World Wide Web junto con HTML y CSS.',
+		'Javascript es un lenguaje de programación que forma parte de las tecnologías fundamentales de la World Wide Web, junto con HTML y CSS.',
 	git: 'Git es un sistema distribuido de control de versiones diseñado para procesar desde pequeños hasta enormes proyectos con velocidad y eficiencia.',
 	react:
 		'React es una libreria de JavaScript para construir interfaces de usuario basadas en componentes UI.',
 	svelte:
-		'Svelte es un framework que compila codigo Javascript de una manera minimalista y altamente optimizada.',
+		'Svelte es un marco de trabajo que compila código JavaScript de una manera minimalista y altamente optimizada.',
 	python:
 		'Go fue creado por Google, tiene sintaxis concisa, garbage collection y concurrencia incorporadas. Es conocido por sus tiempos de compilación rápidos y ser multiplataforma.',
 	astro:
