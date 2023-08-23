@@ -67,11 +67,11 @@ addMessages('es', {
 	svelte:
 		'Svelte es un marco de trabajo que compila código JavaScript de una manera minimalista y altamente optimizada.',
 	python:
-		'Go fue creado por Google, tiene sintaxis concisa, garbage collection y concurrencia incorporadas. Es conocido por sus tiempos de compilación rápidos y ser multiplataforma.',
+		'Go fue creado por Google y tiene una sintaxis concisa, garbage collection y concurrencia incorporada. Es conocido por sus tiempos de compilación rápidos y por ser multiplataforma.',
 	astro:
 		'Astro representa un cambio de paradigma en la arquitectura del front-end. Astro extrae UI en pequeños componentes y el JavaScript no usado es reemplazado por HTML.',
-	message: 'ENVIAME UN MENSAJE',
+	message: 'ENVÍAME UN MENSAJE',
 	messageSubmited: 'MENSAJE ENVIADO EXITOSAMENTE! ✔️✔️',
-	moreAboutMe: 'MAS SOBRE MI',
+	moreAboutMe: 'MÁS SOBRE MÍ',
 	footerText: 'Sitio Web hecho con'
 });
