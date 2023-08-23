@@ -8,8 +8,7 @@ addMessages('en', {
 	have3:
 		'my skills. My skillset includes HTML, CSS, JavaScript and various frameworks and libraries such as React and Svelte.',
 	readMore: 'Read More',
-	social:
-		'Front-End Desing of Modern Social media App using React and Material UI.',
+	social: 'Front-End Desing of Modern Social media App using React and Material UI.',
 	art: 'Art Magazine Website build with the Astro framework.',
 	crypto:
 		'Crypto Seach page using Svelte, Bootstrap and the Gecko Api to display values of different types of coins such as Bitcoin and Ethereum.',
@@ -37,23 +36,22 @@ addMessages('en', {
 	message: 'SEND ME A MESSAGE',
 	messageSubmited: 'MESSAGE SENT SUCCESSFULLY! ✔️✔️',
 	moreAboutMe: 'MORE ABOUT ME',
-	footerText: 'Website made with',
+	footerText: 'Website made with'
 });
 addMessages('es', {
 	greet: 'Hola, soy ',
 	dev: 'Desarrollador Web de Chile',
-	have: 'Soy apasionado por la tecnologia y siempre estoy buscando  ',
+	have: 'Soy apasionado por la tecnología y siempre estoy buscando  ',
 	have2: 'aprender y mejorar',
 	have3:
-		'mis capacidades. Mi skillset incluye HTML, CSS, JavaScript y varios frameworks y librerias como React y Svelte.',
-	readMore: 'Leer Mas',
-	social:
-		'Diseño Front-End para aplicacion Red Social moderna creada con React y Material UI.',
+		'mis capacidades. Mi skillset incluye HTML, CSS, JavaScript y varios frameworks y librerías como React y Svelte.',
+	readMore: 'Leer más',
+	social: 'Diseño Front-End para aplicación Red Social moderna creada con React y Material UI.',
 	art: 'Sitio web Revista de Arte construido con el framework Astro.',
 	crypto:
 		'Buscador de valores crypto usando Svelte, Bootstrap y la API Gecko para mostrar diferentes tipos de valores de cryptomonedas como Bitcoin y Ethereum.',
-	typo: 'Website sobre Tipografia que usa materiales del curso "Introduction to Typography". Creado con el framework Svelte.',
-	blog: 'Recreacion de pagina Go by Example usando NextJS, Typescript y MDX.',
+	typo: 'Sitio web sobre Tipografía que utiliza materiales del curso "Introduction to Typography". Creado con el framework Svelte.',
+	blog: 'Recreación de la página "Go by Example" utilizando Next.js, TypeScript y MDX.',
 	journey: 'EL CAMINO',
 	j1: 'En el camino de estudio del Desarrollo Web eh experimentado tanto los exitos y las dificultades de aprender este campo por mi cuenta. A requerido un monton de dedicacion y motivacion para aprender las varias tecnologias y conceptos.',
 	j3: 'Algo que fue beneficioso fue ponerme metas que fueran pequeñas y a mi alcanze y practicar mis habilidades contruyendo proyectos y websites. Esto me dio un sentido de como es la dinamica de trabajo en un proyecto del mundo real y a la vez me permite mostrar mi trabajo a potenciales clientes y empleadores. Tambien, conectar con otros desarrolladores y unirme a comunidades online que brindan soporte, ideas y enseñanzas a sido beneficioso en seguir mejorando mis capacidades',
@@ -75,5 +73,5 @@ addMessages('es', {
 	message: 'ENVIAME UN MENSAJE',
 	messageSubmited: 'MENSAJE ENVIADO EXITOSAMENTE! ✔️✔️',
 	moreAboutMe: 'MAS SOBRE MI',
-	footerText: 'Sitio Web hecho con',
+	footerText: 'Sitio Web hecho con'
 });
