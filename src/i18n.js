@@ -53,7 +53,7 @@ addMessages('es', {
 	typo: 'Sitio web sobre Tipografía que utiliza materiales del curso "Introduction to Typography". Creado con el framework Svelte.',
 	blog: 'Recreación de la página "Go by Example" utilizando Next.js, TypeScript y MDX.',
 	journey: 'EL CAMINO',
-	j1: 'En el camino de estudio del Desarrollo Web eh experimentado tanto los exitos y las dificultades de aprender este campo por mi cuenta. A requerido un monton de dedicacion y motivacion para aprender las varias tecnologias y conceptos.',
+	j1: 'En el camino de estudio del Desarrollo Web, he experimentado tanto los éxitos como las dificultades de aprender este campo por mi cuenta. Ha requerido un montón de dedicación y motivación para aprender las diversas tecnologías y conceptos.',
 	j3: 'Algo que fue beneficioso fue ponerme metas que fueran pequeñas y a mi alcanze y practicar mis habilidades contruyendo proyectos y websites. Esto me dio un sentido de como es la dinamica de trabajo en un proyecto del mundo real y a la vez me permite mostrar mi trabajo a potenciales clientes y empleadores. Tambien, conectar con otros desarrolladores y unirme a comunidades online que brindan soporte, ideas y enseñanzas a sido beneficioso en seguir mejorando mis capacidades',
 	f1: 'En este momento estoy con ansias de probar cosas nuevas y tomar nuevos desafios , Estoy expectante por ver hacia donde me llevara mi camino de aprendizaje en el tiempo que viene.',
 	courses: 'CURSOS',
