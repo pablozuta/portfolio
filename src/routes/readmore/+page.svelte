@@ -5,7 +5,7 @@
 
 <div class="readme">
     
-	<h3>TECH STACK</h3>
+	<h3 in:fade="{{duration: 2300}}">TECH STACK</h3>
 	<div class="container-badges" in:fade="{{duration: 1500}}">
 		<div class="container-badges-group">
 			<div class="container-badges-card">
