@@ -1,11 +1,12 @@
 <script>
+	import { fade } from 'svelte/transition';
 	import { _ } from 'svelte-i18n';
 </script>
 
 <div class="readme">
     
 	<h3>TECH STACK</h3>
-	<div class="container-badges">
+	<div class="container-badges" in:fade="{{duration: 1500}}">
 		<div class="container-badges-group">
 			<div class="container-badges-card">
 				<img
